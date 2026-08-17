@@ -1,0 +1,108 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+description: >-
+  Regression suite for the Permission Agent relevance rubric. The "provider"
+  under evaluation is our own grader (eval/relevance-grader.js) - the same code
+  the live Playwright assertions in tests/03-ask.spec.ts and
+  tests/02-suggested-topics.spec.ts call. Each case below pins a behaviour the
+  rubric must keep: real on-topic replies pass, and the specific ways an agent
+  reply can be broken all fail.
+
+prompts:
+  - file://prompts/relevance-check.txt
+
+providers:
+  - id: file://providers/relevance-provider.js
+    label: relevance-grader
+
+defaultTest:
+  assert:
+    # Structural contract: the grader must always emit a usable verdict.
+    - type: javascript
+      value: |
+        const v = JSON.parse(output);
+        return typeof v.pass === 'boolean'
+          && typeof v.score === 'number'
+          && v.score >= 0 && v.score <= 1
+          && typeof v.reason === 'string' && v.reason.length > 0;
+
+tests:
+  # ---------------------------------------------------------------------------
+  # MUST PASS - verbatim replies captured from production during recon.
+  # ---------------------------------------------------------------------------
+  - description: Real reply about earning rewards (captured 2026-08-15)
+    vars:
+      question: What is Permission.ai and how do I earn rewards?
+      response: >-
+        Permission.ai helps you earn from your data. It acts as your personalized
+        data broker. The more data you choose to share, the more you can earn with
+        your AI agent managing your wallet and opportunities. You earn ASK tokens
+        by sharing data, completing surveys, and completing automations. Would you
+        like to know more about viewing offers or checking your ASK balance?
+    assert:
+      - type: javascript
+        value: JSON.parse(output).pass === true
+
+  - description: Real reply about ASK tokens (captured 2026-08-15)
+    vars:
+      question: How can I earn ASK tokens?
+      response: >-
+        You can earn ASK tokens by sharing data, completing surveys, and
+        completing automations. Your AI agent manages your wallet and finds
+        opportunities for you.
+    assert:
+      - type: javascript
+        value: JSON.parse(output).pass === true
+
+  # ---------------------------------------------------------------------------
+  # MUST FAIL - the failure modes a structural "is the box non-empty" check
+  # cannot distinguish from a good answer.
+  # ---------------------------------------------------------------------------
+  - description: Fluent but completely off-topic
+    vars:
+      question: What is Permission.ai and how do I earn rewards?
+      response: >-
+        The weather today is sunny with a high of 75 degrees, and tomorrow looks
+        like a good day for a walk in the park with clear skies expected.
+    assert:
+      - type: javascript
+        value: JSON.parse(output).pass === false
+
+  - description: Refusal / no-knowledge answer
+    vars:
+      question: How can I earn ASK tokens?
+      response: I don't know the answer to that question, sorry about that.
+    assert:
+      - type: javascript
+        value: JSON.parse(output).pass === false
+
+  - description: Backend error text rendered into the chat bubble
+    vars:
+      question: What is passive earning?
+      response: Something went wrong. Please try again later.
+    assert:
+      - type: javascript
+        value: JSON.parse(output).pass === false
+
+  - description: Serialisation bug leaking into the UI
+    vars:
+      question: What is Permission Wallet?
+      response: Your wallet balance is undefined [object Object]
+    assert:
+      - type: javascript
+        value: JSON.parse(output).pass === false
+
+  - description: Empty reply
+    vars:
+      question: What is data ownership?
+      response: ''
+    assert:
+      - type: javascript
+        value: JSON.parse(output).pass === false
+
+  - description: Too short to be substantive
+    vars:
+      question: How does Permission use my data?
+      response: It varies.
+    assert:
+      - type: javascript
+        value: JSON.parse(output).pass === false

@@ -1,0 +1,20 @@
+You are grading whether a reply from the Permission Agent (ask.permission.ai)
+is an acceptable answer to the user's question.
+
+QUESTION:
+{{question}}
+
+REPLY:
+{{response}}
+
+Fail the reply if ANY of these is true:
+  - it does not address what was asked
+  - it is an error message, a refusal, or "I don't know"
+  - it is empty, or a single vague sentence carrying no information
+  - it leaks raw placeholders such as undefined, null or [object Object]
+
+Otherwise pass it. Correct information phrased in different words than the
+question is still a pass - do NOT require keyword overlap with the question.
+
+Reply ONLY with minified JSON:
+{"pass":boolean,"score":number,"reason":string}
