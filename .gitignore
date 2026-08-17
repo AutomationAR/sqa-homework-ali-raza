@@ -1,0 +1,28 @@
+node_modules/
+.env
+.env.local
+
+# Live session tokens from recon/capture-authenticated.js. Never commit.
+.auth-state.json
+
+# Local tool state; can capture command lines containing secrets.
+.claude/settings.local.json
+
+# Playwright / run output
+artifacts/test-results/
+artifacts/recon-results/
+playwright-report/
+test-results/
+blob-report/
+.playwright/
+
+# promptfoo cache + local eval output
+.promptfoo/
+artifacts/report/eval-results.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

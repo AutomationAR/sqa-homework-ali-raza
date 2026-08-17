@@ -1,0 +1,32 @@
+{
+  "name": "sqa-homework-ali-raza",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Senior QA Engineer take-home: automated test suite for ask.permission.ai",
+  "type": "commonjs",
+  "scripts": {
+    "setup": "playwright install chromium",
+    "test": "playwright test",
+    "test:desktop": "playwright test --project=desktop-chromium",
+    "test:mobile": "playwright test --project=mobile-chrome",
+    "test:headed": "playwright test --headed --workers=1",
+    "test:headed:desktop": "playwright test --project=desktop-chromium --headed --workers=1",
+    "test:headed:mobile": "playwright test --project=mobile-chrome --headed --workers=1",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report artifacts/report",
+    "recon": "playwright test --config=recon/recon.config.ts",
+    "verify:pills": "playwright test --config=recon/recon.config.ts verify-pill-locator",
+    "capture:auth": "node recon/capture-authenticated.js",
+    "eval": "promptfoo eval --config eval/promptfooconfig.yaml",
+    "eval:view": "promptfoo view"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.0"
+  },
+  "optionalDependencies": {
+    "promptfoo": "^0.122.0"
+  }
+}
