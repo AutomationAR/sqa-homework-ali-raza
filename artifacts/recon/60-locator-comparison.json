@@ -1,0 +1,48 @@
+[
+  {
+    "phase": "BEFORE (greeting only)",
+    "counts": {
+      "p.leading-relaxed": 1,
+      "div.text-md.leading-relaxed": 1,
+      "div.rounded-lg[class*=\"fit-content\"]": 1
+    },
+    "bubbleTexts": [
+      "Hello! How can I help you today?04:57 AM"
+    ],
+    "wrapperTexts": [
+      "Hello! How can I help you today?"
+    ]
+  },
+  {
+    "phase": "DURING (user bubble rendered, no reply yet)",
+    "counts": {
+      "p.leading-relaxed": 1,
+      "div.text-md.leading-relaxed": 2,
+      "div.rounded-lg[class*=\"fit-content\"]": 1
+    },
+    "bubbleTexts": [
+      "Hello! How can I help you today?04:57 AM"
+    ],
+    "wrapperTexts": [
+      "Hello! How can I help you today?",
+      "List three ways I can earn ASK tokens, with a short exp"
+    ]
+  },
+  {
+    "phase": "AFTER (reply rendered)",
+    "counts": {
+      "p.leading-relaxed": 2,
+      "div.text-md.leading-relaxed": 3,
+      "div.rounded-lg[class*=\"fit-content\"]": 2
+    },
+    "bubbleTexts": [
+      "Hello! How can I help you today?04:57 AM",
+      "You can earn ASK tokens in several ways. You earn by sh"
+    ],
+    "wrapperTexts": [
+      "Hello! How can I help you today?",
+      "List three ways I can earn ASK tokens, with a short exp",
+      "You can earn ASK tokens in several ways. You earn by sh"
+    ]
+  }
+]

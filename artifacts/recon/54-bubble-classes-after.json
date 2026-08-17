@@ -1,0 +1,62 @@
+[
+  {
+    "pClass": "text-sm text-gray-600",
+    "wrapClass": "",
+    "outerClass": "flex items-center gap-3 border-b p-1 pb-3",
+    "text": "Here to help you Earn More"
+  },
+  {
+    "pClass": "mb-2 leading-relaxed last:mb-0",
+    "wrapClass": "text-md leading-relaxed",
+    "outerClass": "px-3 py-2 rounded-lg dark:bg-gray-800 dark:text-gray-200 bg-gray-100 text-primary-900 w-[fit-content]",
+    "text": "Hello there! I'm your Permission Agent. How can I assist you"
+  },
+  {
+    "pClass": "mb-2 leading-relaxed last:mb-0",
+    "wrapClass": "text-md leading-relaxed",
+    "outerClass": "px-3 py-2 rounded-lg dark:bg-gray-800 dark:text-gray-200 bg-gray-100 text-primary-900 w-[fit-content]",
+    "text": "You can earn ASK tokens by sharing data, completing surveys,"
+  },
+  {
+    "pClass": "text-xs text-gray-500",
+    "wrapClass": "flex-1",
+    "outerClass": "flex-1 space-y-1",
+    "text": "Press Shift + Enter for new line."
+  },
+  {
+    "pClass": "ot-grp-desc",
+    "wrapClass": "ot-desc-cntr",
+    "outerClass": "ot-tab-desc ot-sdk-eight ot-sdk-columns",
+    "text": "When you visit any website, it may store or retrieve informa"
+  },
+  {
+    "pClass": "ot-grp-desc ot-category-desc",
+    "wrapClass": "ot-desc-cntr ot-hide ot-always-active-group",
+    "outerClass": "ot-tab-desc ot-sdk-eight ot-sdk-columns",
+    "text": "These cookies are necessary for the website to function and "
+  },
+  {
+    "pClass": "ot-grp-desc ot-category-desc",
+    "wrapClass": "ot-desc-cntr ot-hide",
+    "outerClass": "ot-tab-desc ot-sdk-eight ot-sdk-columns",
+    "text": "These cookies allow us to count visits and traffic sources s"
+  },
+  {
+    "pClass": "ot-grp-desc ot-category-desc",
+    "wrapClass": "ot-desc-cntr ot-hide",
+    "outerClass": "ot-tab-desc ot-sdk-eight ot-sdk-columns",
+    "text": "These cookies enable the website to provide enhanced functio"
+  },
+  {
+    "pClass": "ot-grp-desc ot-category-desc",
+    "wrapClass": "ot-desc-cntr ot-hide",
+    "outerClass": "ot-tab-desc ot-sdk-eight ot-sdk-columns",
+    "text": "These cookies may be set through our site by our advertising"
+  },
+  {
+    "pClass": "ot-scrn-rdr",
+    "wrapClass": "",
+    "outerClass": "ot-lst-subhdr",
+    "text": ""
+  }
+]

@@ -1,0 +1,258 @@
+{
+  "url": "https://ask.permission.ai/",
+  "title": "Permission Agent",
+  "overflow": {
+    "scrollWidth": 393,
+    "clientWidth": 393,
+    "horizontallyScrolls": false
+  },
+  "liveRegions": [
+    {
+      "tag": "p",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "span",
+      "box": "0,0 0x0",
+      "visible": false
+    }
+  ],
+  "testids": [
+    {
+      "tag": "button",
+      "testid": "user-widget-button",
+      "text": "ARAli Raza",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "div",
+      "testid": "notification-widget-button",
+      "box": "254,24 24x24",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "user-widget-button",
+      "text": "ARAli Raza",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "h3",
+      "testid": "ai-page-title",
+      "text": "Permission Agent",
+      "box": "72,92 171x24",
+      "visible": true
+    },
+    {
+      "tag": "p",
+      "testid": "ai-page-description",
+      "text": "Here to help you Earn More",
+      "box": "72,116 171x20",
+      "visible": true
+    },
+    {
+      "tag": "textarea",
+      "testid": "agent-chat-input",
+      "box": "32,494 280x40",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "agent-chat-input-send-button",
+      "box": "320,494 41x36",
+      "visible": true
+    },
+    {
+      "tag": "input",
+      "testid": "share-referral-link-input",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "testid": "share-referral-link-copy-button",
+      "text": "Copy",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "testid": "share-referral-link-share-button",
+      "text": "Share",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "testid": "user-widget-button",
+      "text": "ARAli Raza",
+      "box": "16,82 223x40",
+      "visible": true
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "box": "12,24 24x24",
+      "visible": true
+    },
+    {
+      "tag": "div",
+      "testid": "notification-widget-button",
+      "box": "254,24 24x24",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Check MY ASK Balance",
+      "box": "40,156 313x57",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Best way to earn ASK today",
+      "box": "40,225 313x57",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Help me maximize my rewards",
+      "box": "40,295 313x57",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Withdraw ASK Tokens",
+      "box": "40,364 313x57",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "agent-chat-input-send-button",
+      "box": "320,494 41x36",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "ariaLabel": "Manage Settings",
+      "box": "4,667 50x50",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "user-widget-button",
+      "text": "ARAli Raza",
+      "box": "16,82 223x40",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Account Settings",
+      "box": "12,486 231x56",
+      "visible": true
+    }
+  ],
+  "links": [
+    {
+      "tag": "a",
+      "href": "/wallet",
+      "text": "100",
+      "box": "286,18 96x36",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.ai",
+      "text": "Permission.ai",
+      "box": "68,581 58x12",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.ai/terms-of-use",
+      "text": "Terms of Use",
+      "box": "207,581 59x12",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.ai/privacy-policy",
+      "text": "Privacy Policy",
+      "box": "209,593 61x12",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.ai",
+      "text": "Permission Home |",
+      "box": "256,667 116x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://permission.io/privacy-policy",
+      "text": "Privacy Policy |",
+      "box": "77,691 96x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.io/terms-of-use",
+      "text": "Terms of Use |",
+      "box": "173,691 92x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://permission.deskpro.com",
+      "text": "Support",
+      "box": "265,691 51x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/",
+      "box": "12,12 231x38",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/",
+      "text": "Permission Agent",
+      "box": "12,154 231x56",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/data-enrichment-hub",
+      "text": "Data Enrichment Hub",
+      "box": "12,218 231x56",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/redeem/offers",
+      "text": "Redeem",
+      "box": "12,282 231x56",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/referrals",
+      "text": "Referrals",
+      "box": "12,346 231x56",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/wallet",
+      "text": "Wallet100",
+      "box": "12,410 231x68",
+      "visible": true
+    }
+  ],
+  "messageBubbles": []
+}

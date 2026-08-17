@@ -1,0 +1,146 @@
+[
+  {
+    "tag": "img",
+    "testid": "login-logo"
+  },
+  {
+    "tag": "h2",
+    "testid": "login-title-heading",
+    "text": "Log in to your account"
+  },
+  {
+    "tag": "h6",
+    "testid": "login-title-subheading",
+    "text": "Welcome back! Please enter your details."
+  },
+  {
+    "tag": "input",
+    "testid": "login-email-input",
+    "type": "email",
+    "name": "email",
+    "placeholder": "Email"
+  },
+  {
+    "tag": "input",
+    "testid": "login-password-input",
+    "type": "password",
+    "name": "password",
+    "placeholder": "Password"
+  },
+  {
+    "tag": "svg",
+    "testid": "login-password-eye-off-icon"
+  },
+  {
+    "tag": "a",
+    "testid": "login-forgot-password-link",
+    "text": "Forgot password?"
+  },
+  {
+    "tag": "button",
+    "testid": "login-submit-button",
+    "type": "submit",
+    "text": "Log in"
+  },
+  {
+    "tag": "a",
+    "testid": "login-signup-link",
+    "text": "Sign up and earn"
+  },
+  {
+    "tag": "button",
+    "text": "Cookies Button"
+  },
+  {
+    "tag": "button",
+    "text": "Accept All"
+  },
+  {
+    "tag": "button",
+    "text": "Reject All"
+  },
+  {
+    "tag": "button",
+    "text": "Manage Settings"
+  },
+  {
+    "tag": "button"
+  },
+  {
+    "tag": "input",
+    "type": "checkbox",
+    "name": "ot-group-id-C0002"
+  },
+  {
+    "tag": "input",
+    "type": "checkbox",
+    "name": "ot-group-id-C0003"
+  },
+  {
+    "tag": "input",
+    "type": "checkbox",
+    "name": "ot-group-id-C0004"
+  },
+  {
+    "tag": "button",
+    "text": "Back Button"
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "name": "vendor-search-handler",
+    "placeholder": "Search…"
+  },
+  {
+    "tag": "button",
+    "text": "Filter Button"
+  },
+  {
+    "tag": "input",
+    "type": "checkbox"
+  },
+  {
+    "tag": "input",
+    "type": "checkbox"
+  },
+  {
+    "tag": "input",
+    "type": "checkbox"
+  },
+  {
+    "tag": "button",
+    "text": "Clear"
+  },
+  {
+    "tag": "input",
+    "type": "checkbox"
+  },
+  {
+    "tag": "button",
+    "text": "Apply"
+  },
+  {
+    "tag": "button",
+    "text": "Cancel"
+  },
+  {
+    "tag": "button",
+    "text": "Confirm My Choices"
+  },
+  {
+    "tag": "button",
+    "text": "Reject All"
+  },
+  {
+    "tag": "button",
+    "text": "Allow All"
+  },
+  {
+    "tag": "button",
+    "type": "button"
+  },
+  {
+    "tag": "button",
+    "type": "button"
+  }
+]

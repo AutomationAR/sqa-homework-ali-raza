@@ -1,0 +1,155 @@
+{
+  "url": "https://ask.permission.ai/",
+  "title": "Permission Agent",
+  "overflow": {
+    "scrollWidth": 393,
+    "clientWidth": 393,
+    "horizontallyScrolls": false
+  },
+  "liveRegions": [
+    {
+      "tag": "p",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "span",
+      "box": "0,0 0x0",
+      "visible": false
+    }
+  ],
+  "testids": [
+    {
+      "tag": "button",
+      "testid": "log-in-button",
+      "text": "Log in",
+      "box": "208,12 76x48",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "sign-up-button",
+      "text": "Sign Up",
+      "box": "292,12 89x48",
+      "visible": true
+    },
+    {
+      "tag": "h3",
+      "testid": "ai-page-title",
+      "text": "Permission Agent",
+      "box": "72,92 171x24",
+      "visible": true
+    },
+    {
+      "tag": "p",
+      "testid": "ai-page-description",
+      "text": "Here to help you Earn More",
+      "box": "72,116 171x20",
+      "visible": true
+    },
+    {
+      "tag": "textarea",
+      "testid": "agent-chat-input",
+      "box": "32,494 280x40",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "agent-chat-input-send-button",
+      "box": "320,494 41x36",
+      "visible": true
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "box": "12,24 24x24",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "log-in-button",
+      "text": "Log in",
+      "box": "208,12 76x48",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "sign-up-button",
+      "text": "Sign Up",
+      "box": "292,12 89x48",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "agent-chat-input-send-button",
+      "box": "320,494 41x36",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "ariaLabel": "Manage Settings",
+      "box": "4,667 50x50",
+      "visible": true
+    }
+  ],
+  "links": [
+    {
+      "tag": "a",
+      "href": "https://www.permission.ai",
+      "text": "Permission.ai",
+      "box": "68,581 58x12",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.ai/terms-of-use",
+      "text": "Terms of Use",
+      "box": "207,581 59x12",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.ai/privacy-policy",
+      "text": "Privacy Policy",
+      "box": "209,593 61x12",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.ai",
+      "text": "Permission Home |",
+      "box": "256,667 116x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://permission.io/privacy-policy",
+      "text": "Privacy Policy |",
+      "box": "77,691 96x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.io/terms-of-use",
+      "text": "Terms of Use |",
+      "box": "173,691 92x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://permission.deskpro.com",
+      "text": "Support",
+      "box": "265,691 51x17",
+      "visible": true
+    }
+  ],
+  "messageBubbles": [
+    {
+      "tag": "div",
+      "text": "Hello there! How can I help you today?04:21 AM",
+      "box": "24,165 294x96",
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+[
+  {
+    "method": "GET",
+    "url": "https://ask.permission.ai/"
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@100;wght@400&Archivo:wght@400;700&family=Montserrat:wght@700&display=swap"
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+  },
+  {
+    "method": "GET",
+    "url": "https://ask.permission.ai/assets/main-BFBchV7K.js"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PSV2GHJM&gtm_auth=&gtm_preview=&gtm_cookies_win=x"
+  },
+  {
+    "method": "GET",
+    "url": "https://us-assets.i.posthog.com/array/phc_w63zR5rn35AzyiKmQ6sKiR8fwYsM46q4WaiHahwkYII/config.js"
+  },
+  {
+    "method": "POST",
+    "url": "https://us.i.posthog.com/flags/?v=2&config=true&ip=0&_=1786745069312&ver=1.261.0&compression=base64"
+  },
+  {
+    "method": "GET",
+    "url": "https://us-assets.i.posthog.com/array/phc_w63zR5rn35AzyiKmQ6sKiR8fwYsM46q4WaiHahwkYII/config?ip=0&_=1786745069322&ver=1.279.0"
+  },
+  {
+    "method": "POST",
+    "url": "https://us.i.posthog.com/flags/?v=2&config=true&ip=0&_=1786745069324&ver=1.279.0&compression=base64"
+  },
+  {
+    "method": "GET",
+    "url": "https://ask.permission.ai/api/agent/suggestions-unauthenticated"
+  },
+  {
+    "method": "POST",
+    "url": "https://ask.permission.ai/api/agent/ask-unauthenticated"
+  },
+  {
+    "method": "POST",
+    "url": "https://pulse.walletconnect.org/batch?projectId=0cf5a040f205b410af35530df3ee8191&st=events_sdk&sv=js-2.17.0"
+  },
+  {
+    "method": "GET",
+    "url": "https://ask.permission.ai/assets/w3m-modal-C5jpGUjj.js"
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.web3modal.org/getWallets?projectId=0cf5a040f205b410af35530df3ee8191&st=appkit&sv=react-wagmi-1.5.1&page=1&entries=4&include=c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96%2Cc03dfee351b6fcc421b4494ea33b9d4b92a984f87aa76d1663bb28705e95034a%2Cef333840daf915aafdc4a004525502d6d49d77bd9c65e0642dbaefb3c2893bef%2C0b415a746fb9ee99cce155c2ceca0c6f6061b1dbca2d722b3ba16381d0562150"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.web3modal.org/getWallets?projectId=0cf5a040f205b410af35530df3ee8191&st=appkit&sv=react-wagmi-1.5.1&page=1&chains=eip155%3A137&entries=4&include=c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96%2Cc03dfee351b6fcc421b4494ea33b9d4b92a984f87aa76d1663bb28705e95034a%2Cef333840daf915aafdc4a004525502d6d49d77bd9c65e0642dbaefb3c2893bef%2C0b415a746fb9ee99cce155c2ceca0c6f6061b1dbca2d722b3ba16381d0562150&exclude=c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96%2Cc03dfee351b6fcc421b4494ea33b9d4b92a984f87aa76d1663bb28705e95034a%2Cef333840daf915aafdc4a004525502d6d49d77bd9c65e0642dbaefb3c2893bef%2C0b415a746fb9ee99cce155c2ceca0c6f6061b1dbca2d722b3ba16381d0562150"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.web3modal.org/public/getAssetImage/41d04d42-da3b-4453-8506-668cc0727900?projectId=0cf5a040f205b410af35530df3ee8191&st=appkit&sv=react-wagmi-1.5.1"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.web3modal.org/public/getAssetImage/0c2840c3-5b04-4c44-9661-fbd4b49e1800?projectId=0cf5a040f205b410af35530df3ee8191&st=appkit&sv=react-wagmi-1.5.1"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.web3modal.org/public/getAssetImage/ef1a1fcf-7fe8-4d69-bd6d-fda1345b4400?projectId=0cf5a040f205b410af35530df3ee8191&st=appkit&sv=react-wagmi-1.5.1"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.web3modal.org/public/getAssetImage/07ba87ed-43aa-4adf-4540-9e6a2b9cae00?projectId=0cf5a040f205b410af35530df3ee8191&st=appkit&sv=react-wagmi-1.5.1"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.web3modal.org/getAnalyticsConfig?projectId=0cf5a040f205b410af35530df3ee8191&st=appkit&sv=react-wagmi-1.5.1"
+  },
+  {
+    "method": "POST",
+    "url": "https://pulse.walletconnect.org/e"
+  },
+  {
+    "method": "GET",
+    "url": "https://us-assets.i.posthog.com/static/dead-clicks-autocapture.js?v=1.279.0"
+  },
+  {
+    "method": "GET",
+    "url": "https://us-assets.i.posthog.com/static/surveys.js?v=1.279.0"
+  },
+  {
+    "method": "GET",
+    "url": "https://us-assets.i.posthog.com/static/web-vitals.js?v=1.279.0"
+  },
+  {
+    "method": "GET",
+    "url": "https://us-assets.i.posthog.com/static/dead-clicks-autocapture.js?v=1.261.0"
+  },
+  {
+    "method": "GET",
+    "url": "https://us-assets.i.posthog.com/static/surveys.js?v=1.261.0"
+  },
+  {
+    "method": "GET",
+    "url": "https://us-assets.i.posthog.com/static/web-vitals.js?v=1.261.0"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.web3modal.org/getWalletImage/eebe4a7f-7166-402f-92e0-1f64ca2aa800?projectId=0cf5a040f205b410af35530df3ee8191&st=appkit&sv=react-wagmi-1.5.1"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.web3modal.org/getWalletImage/bff9cf1f-df19-42ce-f62a-87f04df13c00?projectId=0cf5a040f205b410af35530df3ee8191&st=appkit&sv=react-wagmi-1.5.1"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.web3modal.org/getWalletImage/c84b4d9d-9525-4bb5-b373-934b46eafc00?projectId=0cf5a040f205b410af35530df3ee8191&st=appkit&sv=react-wagmi-1.5.1"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.web3modal.org/getWalletImage/252753e7-b783-4e03-7f77-d39864530900?projectId=0cf5a040f205b410af35530df3ee8191&st=appkit&sv=react-wagmi-1.5.1"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.googletagmanager.com/gtag/js?id=AW-16678909524&cx=c&gtm=4e68c1"
+  },
+  {
+    "method": "GET",
+    "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+  },
+  {
+    "method": "GET",
+    "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CUMFHN3C77U7F7KCE5M0&lib=ttq"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.redditstatic.com/ads/pixel.js"
+  },
+  {
+    "method": "GET",
+    "url": "https://connect.facebook.net/en_US/fbevents.js"
+  },
+  {
+    "method": "GET",
+    "url": "https://amplify.outbrain.com/cp/obtp.js"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=1&ae=g&auid=2099508771.1786745071&dt=Permission%20Agent&en=page_view&dl=https%3A%2F%2Fask.permission.ai%2F&scrsrc=www.googletagmanager.com&rnd=1126908519.1786745071&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He68c1v9195413699za200zd9195413699xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~119527020~120385422&tft=1786745070610&tfd=4202&fmt=8"
+  },
+  {
+    "method": "POST",
+    "url": "https://ad.doubleclick.net/ccm/s/collect?auid=2099508771.1786745071&gtm=45He68c1v9195413699za200zd9195413699xea&fmt=8"
+  },
+  {
+    "method": "GET",
+    "url": "https://cdn.cookielaw.org/consent/0198332b-641a-7d03-b7c5-9d46287298d8/0198332b-641a-7d03-b7c5-9d46287298d8.json"
+  },
+  {
+    "method": "GET",
+    "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+  },
+  {
+    "method": "GET",
+    "url": "https://connect.facebook.net/signals/config/617189131301485?v=2.9.379&r=stable&domain=ask.permission.ai&hme=b1ada4403c1587912a3e4330d3fd81e912d36218952fb8107c4c850599826428&ex_m=113%2C218%2C164%2C25%2C78%2C79%2C156%2C74%2C73%2C11%2C174%2C98%2C19%2C148%2C136%2C43%2C81%2C86%2C144%2C169%2C176%2C29%2C17%2C30%2C31%2C32%2C34%2C52%2C157%2C83%2C121%2C21%2C23%2C48%2C44%2C46%2C45%2C91%2C100%2C104%2C119%2C155%2C158%2C50%2C120%2C27%2C24%2C128%2C75%2C40%2C160%2C159%2C161%2C152%2C150%2C28%2C39%2C63%2C118%2C171%2C76%2C20%2C123%2C89%2C72%2C22%2C93%2C94%2C125%2C92%2C146%2C145%2C149%2C105%2C170%2C173%2C38%2C53%2C122%2C51%2C8%2C4%2C5%2C7%2C6%2C3%2C99%2C110%2C177%2C185%2C232%2C80%2C245%2C244%2C243%2C14%2C26%2C37%2C59%2C112%2C65%2C10%2C69%2C106%2C107%2C108%2C114%2C139%2C35%2C33%2C141%2C142%2C143%2C138%2C137%2C165%2C82%2C168%2C166%2C167%2C54%2C64%2C132%2C18%2C172%2C49%2C291%2C292%2C290%2C305%2C325%2C225%2C214%2C66%2C215%2C213%2C328%2C319%2C56%2C226%2C116%2C140%2C88%2C130%2C58%2C129%2C135%2C134%2C62%2C70%2C68%2C162%2C84%2C85%2C124%2C41%2C36%2C57%2C60%2C109%2C175%2C1%2C133%2C16%2C131%2C12%2C2%2C61%2C101%2C15%2C71%2C67%2C127%2C97%2C96%2C178%2C179%2C102%2C103%2C9%2C111%2C55%2C153%2C95%2C87%2C77%2C126%2C115%2C47%2C154%2C0%2C90%2C147%2C151%2C163%2C42%2C117%2C13%2C180"
+  },
+  {
+    "method": "GET",
+    "url": "https://pixel-config.reddit.com/pixels/a2_glob22zi2c3e/config"
+  },
+  {
+    "method": "GET",
+    "url": "https://wave.outbrain.com/mtWavesBundler/handler/0067e26b33164aad49216795f5792595db"
+  },
+  {
+    "method": "GET",
+    "url": "https://tr.outbrain.com/unifiedPixel?au=false&bust=06176705211569086&referrer=https%3A%2F%2Fask.permission.ai%2F&pRef=&marketerId=0067e26b33164aad49216795f5792595db&name=PAGE_VIEW&dl=https%3A%2F%2Fask.permission.ai%2F&g=1&zone=all&pld=4766&obApiVersion=1.1&obtpVersion=ee5c3a84dbbe_2026-07-27"
+  },
+  {
+    "method": "GET",
+    "url": "https://tr.outbrain.com/cachedClickId?marketerId=0067e26b33164aad49216795f5792595db"
+  },
+  {
+    "method": "GET",
+    "url": "https://cdn.cookielaw.org/scripttemplates/202603.1.0/otBannerSdk.js"
+  },
+  {
+    "method": "GET",
+    "url": "https://cdn.cookielaw.org/consent/0198332b-641a-7d03-b7c5-9d46287298d8/019e6a4b-34d3-73d5-a7ce-e9592158acaf/en.json"
+  },
+  {
+    "method": "GET",
+    "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MTZkNzEzYmVhOQ.js"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.googletagmanager.com/gtag/destination?id=G-LLLYBH61F5&cx=c&gtm=4e68c1"
+  },
+  {
+    "method": "GET",
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16685333881/?random=1786745071453&cv=11&fst=1786745071453&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68c1v9194250451z89195413699za20gzb9195413699zd9195413699xec&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119527019~120125305~120385422&u_w=1440&u_h=900&url=https%3A%2F%2Fask.permission.ai%2F&rcb=0&frm=0&tiba=Permission%20Agent&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2099508771.1786745071&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/rmkt/collect/16685333881/?random=1786745071453&cv=11&fst=1786745071453&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68c1v9194250451z89195413699za20gzb9195413699zd9195413699xec&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119527019~120125305~120385422&u_w=1440&u_h=900&url=https%3A%2F%2Fask.permission.ai%2F&rcb=0&frm=0&tiba=Permission%20Agent&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2099508771.1786745071&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5"
+  },
+  {
+    "method": "GET",
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16678909524/?random=1786745071474&cv=11&fst=1786745071474&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68c1v9194250451z89195413699za20gzb9195413699zd9195413699xec&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119527019~120125305~120385422&u_w=1440&u_h=900&url=https%3A%2F%2Fask.permission.ai%2F&rcb=0&frm=0&tiba=Permission%20Agent&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2099508771.1786745071&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/rmkt/collect/16678909524/?random=1786745071474&cv=11&fst=1786745071474&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68c1v9194250451z89195413699za20gzb9195413699zd9195413699xec&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119527019~120125305~120385422&u_w=1440&u_h=900&url=https%3A%2F%2Fask.permission.ai%2F&rcb=0&frm=0&tiba=Permission%20Agent&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2099508771.1786745071&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=0&auid=2099508771.1786745071&dt=Permission%20Agent&tid=AW-16685333881&en=page_view&dl=https%3A%2F%2Fask.permission.ai%2F&scrsrc=www.googletagmanager.com&rnd=1126908519.1786745071&navt=n&npa=0&gtm=45be68c1v9194250451z89195413699za20gzb9195413699zd9195413699xec&gcs=G1--&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119527019~120125305~120385422&tft=1786745071483&tfd=5076&tids=AW-16685333881~AW-16678909524&fmt=8"
+  },
+  {
+    "method": "GET",
+    "url": "https://cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otFloatingRoundedIcon.json"
+  },
+  {
+    "method": "GET",
+    "url": "https://cdn.cookielaw.org/scripttemplates/202603.1.0/assets/v2/otPcTab.json"
+  },
+  {
+    "method": "GET",
+    "url": "https://cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otCookieSettingsButton.json"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.facebook.com/tr/?id=617189131301485&ev=PageView&dl=https%3A%2F%2Fask.permission.ai%2F&rl=&if=false&ts=1786745071616&iw=false&sw=1440&sh=900&v=2.9.379&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1786745071609.351238778242344189&ler=empty&pmd[title]=Permission%20Agent&pmd[locale]=en&pmd[description]=Earn%20rewards%20for%20sharing%20your%20data%20on%20your%20terms.%20Take%20control%20of%20your%20digital%20identity%20with%20Permission.ai.%20Join%20us%20today%20and%20experience%20a%20new%20era%20of%20privacy%20and%20value%20in%20the%20digital%20world!&plt=2871.9000000953674&iss=1&imft=1&tz=300&it=1786745071132&coo=false&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct3&expv2[6]=hf0&expv2[7]=sd1&expv2[8]=sp1&expv2[9]=ek1&expv2[10]=pc1&expv2[11]=gs1&expv2[12]=zs1&expv2[13]=cp1&expv2[14]=es1&expv2[15]=ac1&expv2[16]=so1&expv2[17]=wc1&expv2[18]=la1&expv2[19]=sf1&expv2[20]=da1&expv2[21]=io1&expv2[22]=ae1&expv2[23]=sx1&expv2[24]=if1&expv2[25]=fd1&expv2[26]=bg1&expv2[27]=mg1&expv2[28]=kl1&expv2[29]=sg1&expv2[30]=mk1&expv2[31]=sn1&expv2[32]=ec1&expv2[33]=mp1&expv2[34]=ps1&expv2[35]=fx1&expv2[36]=vt1&rqm=GET"
+  },
+  {
+    "method": "GET",
+    "url": "https://analytics.tiktok.com/i18n/pixel/static/identify_ea043f1c.js"
+  },
+  {
+    "method": "POST",
+    "url": "https://analytics-ipv6.tiktokw.us/ipv6/enrich_ipv6"
+  },
+  {
+    "method": "POST",
+    "url": "https://analytics.tiktok.com/api/v2/pixel"
+  },
+  {
+    "method": "POST",
+    "url": "https://analytics.tiktok.com/api/v2/pixel"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/measurement/conversion?random=1786745072193&cv=11&tid=G-LLLYBH61F5&fst=1786745072193&fmt=8&en=first_visit&gtm=45je68c1v868388571z89195413699za20gzb9195413699zd9195413699xec&gcs=G1--&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119527019~120385422&u_w=1440&u_h=900&url=https%3A%2F%2Fask.permission.ai%2F&gacid=1883069914.1786745072&frm=0&tiba=Permission%20Agent&npa=0&pscdl=noapi&auid=2099508771.1786745071&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=5"
+  },
+  {
+    "method": "POST",
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-LLLYBH61F5&gtm=45je68c1v868388571z89195413699za20gzb9195413699zd9195413699&_p=1786745069265&_gaz=1&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&are=1&cid=1883069914.1786745072&frm=0&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119527019~120385422&sid=1786745072&sct=1&seg=0&dl=https%3A%2F%2Fask.permission.ai%2F&dt=Permission%20Agent&en=ai_agent_request&_fv=2&_nsi=1&_ss=1&tfd=5805"
+  },
+  {
+    "method": "POST",
+    "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-LLLYBH61F5&cid=1883069914.1786745072&gtm=45je68c1v868388571z89195413699za20gzb9195413699zd9195413699&rcb=5&aip=1&dma=0&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119527019~120385422"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.com.pk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-LLLYBH61F5&cid=1883069914.1786745072&gtm=45je68c1v868388571z89195413699za20gzb9195413699zd9195413699&rcb=5&aip=1&dma=0&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119527019~120385422&z=1539097712"
+  },
+  {
+    "method": "POST",
+    "url": "https://analytics.tiktok.com/api/v2/pixel/act"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.com/pagead/1p-user-list/16678909524/?random=1786745071474&cv=11&fst=1786744800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68c1v9194250451z89195413699za20gzb9195413699zd9195413699xec&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119527019~120125305~120385422&u_w=1440&u_h=900&url=https%3A%2F%2Fask.permission.ai%2F&rcb=0&frm=0&tiba=Permission%20Agent&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2099508771.1786745071&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS6wEAEQoqgeqyXUZh595vZBhSOJbFypHZbI8VmkglfT-Mn6d2kmYHeDxKzzg5BzJ4EoBsZJaNmJVnmaVRNNwnTDdYSh7iDB0ANI0t6IA7Q3Bx0ZQVaBS1STcG1wPGABwQUJ3dytTpkDv35cSA34W4eaXIJlDLKbaWzaTJ5cFiIv4t3AXFXEjzrjn4_AyNk5d8mSE2uCIdac2xlxO9TuvD4vSbCVx-BCL6VGrkmz9q79cSdmnqw5ul68rpPPiD2ajAKgiUpxnAqWqKniZlsAcd9eWsocan_wSmgBatDfO1rEnCJio72rBwgL7mEF1J&random=2738773806&rmt_tld=0&ipr=y"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.com.pk/pagead/1p-user-list/16678909524/?random=1786745071474&cv=11&fst=1786744800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68c1v9194250451z89195413699za20gzb9195413699zd9195413699xec&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119527019~120125305~120385422&u_w=1440&u_h=900&url=https%3A%2F%2Fask.permission.ai%2F&rcb=0&frm=0&tiba=Permission%20Agent&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2099508771.1786745071&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS6wEAEQoqgeqyXUZh595vZBhSOJbFypHZbI8VmkglfT-Mn6d2kmYHeDxKzzg5BzJ4EoBsZJaNmJVnmaVRNNwnTDdYSh7iDB0ANI0t6IA7Q3Bx0ZQVaBS1STcG1wPGABwQUJ3dytTpkDv35cSA34W4eaXIJlDLKbaWzaTJ5cFiIv4t3AXFXEjzrjn4_AyNk5d8mSE2uCIdac2xlxO9TuvD4vSbCVx-BCL6VGrkmz9q79cSdmnqw5ul68rpPPiD2ajAKgiUpxnAqWqKniZlsAcd9eWsocan_wSmgBatDfO1rEnCJio72rBwgL7mEF1J&random=2738773806&rmt_tld=1&ipr=y"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.com/pagead/1p-user-list/16685333881/?random=1786745071453&cv=11&fst=1786744800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68c1v9194250451z89195413699za20gzb9195413699zd9195413699xec&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119527019~120125305~120385422&u_w=1440&u_h=900&url=https%3A%2F%2Fask.permission.ai%2F&rcb=0&frm=0&tiba=Permission%20Agent&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2099508771.1786745071&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS6wEAEQoqgX5NNCDdcPB5nE_Ep1STmlZpbnXYkSvyXQH2imcLhGPUkBfyr4fivZNaoJGmgkoQ9YjEu2S4ikegvSxbkcLhFr7AP9GRh6aGZ7bKUW8dK-Or8-v5EPMXNKUIzODhjZSlqqnPjHA_p4FEZO1vV_75LuyCZnQ8mzaIHEpscau1ElJUsUrUDqRC5v--WZqfMwLneHvUm-m15izK7PzGUqEmJ-B-jCMUOR84fudyOmfLPGozbQN0VG-WA9Jl7Qz8yX3rEO0vUiE2hp_ju8Ualv-ldv8xTBRK8LCbyy_fRyRnAosqQIluOo3F&random=2839665507&rmt_tld=0&ipr=y"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.com.pk/pagead/1p-user-list/16685333881/?random=1786745071453&cv=11&fst=1786744800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68c1v9194250451z89195413699za20gzb9195413699zd9195413699xec&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119527019~120125305~120385422&u_w=1440&u_h=900&url=https%3A%2F%2Fask.permission.ai%2F&rcb=0&frm=0&tiba=Permission%20Agent&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2099508771.1786745071&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS6wEAEQoqgX5NNCDdcPB5nE_Ep1STmlZpbnXYkSvyXQH2imcLhGPUkBfyr4fivZNaoJGmgkoQ9YjEu2S4ikegvSxbkcLhFr7AP9GRh6aGZ7bKUW8dK-Or8-v5EPMXNKUIzODhjZSlqqnPjHA_p4FEZO1vV_75LuyCZnQ8mzaIHEpscau1ElJUsUrUDqRC5v--WZqfMwLneHvUm-m15izK7PzGUqEmJ-B-jCMUOR84fudyOmfLPGozbQN0VG-WA9Jl7Qz8yX3rEO0vUiE2hp_ju8Ualv-ldv8xTBRK8LCbyy_fRyRnAosqQIluOo3F&random=2839665507&rmt_tld=1&ipr=y"
+  }
+]

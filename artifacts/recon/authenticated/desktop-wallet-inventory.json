@@ -1,0 +1,233 @@
+{
+  "url": "https://ask.permission.ai/wallet",
+  "title": "Wallet - Permission.ai",
+  "overflow": {
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "horizontallyScrolls": false
+  },
+  "liveRegions": [
+    {
+      "tag": "p",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "span",
+      "text": "Your Privacy [`dialog closed`]",
+      "box": "0,0 0x0",
+      "visible": false
+    }
+  ],
+  "testids": [
+    {
+      "tag": "button",
+      "testid": "user-widget-button",
+      "text": "ARAli Raza",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "div",
+      "testid": "notification-widget-button",
+      "box": "1071,24 24x24",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "user-widget-button",
+      "text": "ARAli Raza",
+      "box": "1274,16 130x40",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "add-ask-domain-button",
+      "text": "Add .ASK Domain",
+      "box": "321,854 606x44",
+      "visible": true
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "text": "Account Settings",
+      "box": "16,442 207x56",
+      "visible": true
+    },
+    {
+      "tag": "div",
+      "testid": "notification-widget-button",
+      "box": "1071,24 24x24",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "user-widget-button",
+      "text": "ARAli Raza",
+      "box": "1274,16 130x40",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Balances",
+      "box": "296,104 56x38",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Earning Activity",
+      "box": "368,104 99x38",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "All Chains",
+      "box": "321,628 80x32",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "box": "421,628 32x32",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "box": "473,628 32x32",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "box": "895,628 32x32",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Connect wallet",
+      "box": "321,794 606x44",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "add-ask-domain-button",
+      "text": "Add .ASK Domain",
+      "box": "321,854 606x44",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "How to withdraw",
+      "box": "321,1027 606x56",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "How to send ASK",
+      "box": "321,1084 606x56",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Why is there a withdrawal limit?",
+      "box": "321,1140 606x56",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "What is ASK?",
+      "box": "321,1197 606x56",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Withdraw ASK",
+      "box": "1049,388 303x44",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "ariaLabel": "Manage Settings",
+      "box": "14,840 50x50",
+      "visible": true
+    }
+  ],
+  "links": [
+    {
+      "tag": "a",
+      "href": "/",
+      "box": "16,16 207x38",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/",
+      "text": "Permission Agent",
+      "box": "16,86 207x56",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/data-enrichment-hub",
+      "text": "Data Enrichment Hub",
+      "box": "16,150 207x80",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/redeem/offers",
+      "text": "Redeem",
+      "box": "16,238 207x56",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/referrals",
+      "text": "Referrals",
+      "box": "16,302 207x56",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/wallet",
+      "text": "Wallet100",
+      "box": "16,366 207x68",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/wallet",
+      "text": "100",
+      "box": "1135,18 96x36",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.ai",
+      "text": "Permission Home |",
+      "box": "815,864 120x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://permission.io/privacy-policy",
+      "text": "Privacy Policy |",
+      "box": "935,864 96x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.io/terms-of-use",
+      "text": "Terms of Use |",
+      "box": "1031,864 92x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://permission.deskpro.com",
+      "text": "Support",
+      "box": "1124,864 51x17",
+      "visible": true
+    }
+  ],
+  "messageBubbles": []
+}

@@ -1,0 +1,31 @@
+- dialog:
+  - link "Permission":
+    - /url: /
+    - img "Permission"
+  - button "AR Ali Raza"
+  - list:
+    - listitem:
+      - link "Permission Agent":
+        - /url: /
+    - listitem:
+      - link "Data Enrichment Hub":
+        - /url: /data-enrichment-hub
+    - listitem:
+      - link "Redeem":
+        - /url: /redeem/offers
+        - img
+        - text: Redeem
+    - listitem:
+      - link "Referrals":
+        - /url: /referrals
+        - img
+        - text: Referrals
+    - listitem:
+      - link "Wallet Coin Icon 100":
+        - /url: /wallet
+        - text: Wallet
+        - img "Coin Icon"
+        - text: "100"
+    - listitem:
+      - heading "Account Settings" [level=3]:
+        - button "Account Settings"

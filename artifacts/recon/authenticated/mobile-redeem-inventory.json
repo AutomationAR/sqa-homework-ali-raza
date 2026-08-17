@@ -1,0 +1,193 @@
+{
+  "url": "https://ask.permission.ai/redeem/offers",
+  "title": "Redemption Portal - Permission.ai",
+  "overflow": {
+    "scrollWidth": 393,
+    "clientWidth": 393,
+    "horizontallyScrolls": false
+  },
+  "liveRegions": [
+    {
+      "tag": "p",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "span",
+      "box": "0,0 0x0",
+      "visible": false
+    }
+  ],
+  "testids": [
+    {
+      "tag": "button",
+      "testid": "user-widget-button",
+      "text": "ARAli Raza",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "div",
+      "testid": "notification-widget-button",
+      "box": "254,24 24x24",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "user-widget-button",
+      "text": "ARAli Raza",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "input",
+      "testid": "share-referral-link-input",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "testid": "share-referral-link-copy-button",
+      "text": "Copy",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "testid": "share-referral-link-share-button",
+      "text": "Share",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "testid": "user-widget-button",
+      "text": "ARAli Raza",
+      "box": "16,82 223x40",
+      "visible": true
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "box": "12,24 24x24",
+      "visible": true
+    },
+    {
+      "tag": "div",
+      "testid": "notification-widget-button",
+      "box": "254,24 24x24",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "ariaLabel": "Learn more",
+      "box": "146,90 16x16",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Get Started",
+      "box": "576,178 127x40",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "ariaLabel": "Manage Settings",
+      "box": "4,667 50x50",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "user-widget-button",
+      "text": "ARAli Raza",
+      "box": "16,82 223x40",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Account Settings",
+      "box": "12,486 231x56",
+      "visible": true
+    }
+  ],
+  "links": [
+    {
+      "tag": "a",
+      "href": "/wallet",
+      "text": "100",
+      "box": "286,18 96x36",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.ai",
+      "text": "Permission Home |",
+      "box": "256,667 116x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://permission.io/privacy-policy",
+      "text": "Privacy Policy |",
+      "box": "77,691 96x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.io/terms-of-use",
+      "text": "Terms of Use |",
+      "box": "173,691 92x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://permission.deskpro.com",
+      "text": "Support",
+      "box": "265,691 51x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/",
+      "box": "12,12 231x38",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/",
+      "text": "Permission Agent",
+      "box": "12,154 231x56",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/data-enrichment-hub",
+      "text": "Data Enrichment Hub",
+      "box": "12,218 231x56",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/redeem/offers",
+      "text": "Redeem",
+      "box": "12,282 231x56",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/referrals",
+      "text": "Referrals",
+      "box": "12,346 231x56",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/wallet",
+      "text": "Wallet100",
+      "box": "12,410 231x68",
+      "visible": true
+    }
+  ],
+  "messageBubbles": []
+}

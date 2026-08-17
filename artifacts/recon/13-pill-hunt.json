@@ -1,0 +1,58 @@
+[
+  {
+    "tag": "button",
+    "testid": "log-in-button",
+    "cls": "inline-flex items-center justify-around whitespace-nowrap rounded-md disabled:pointer-events-none w-",
+    "text": "Log in",
+    "visible": true
+  },
+  {
+    "tag": "button",
+    "testid": "sign-up-button",
+    "cls": "inline-flex items-center justify-around whitespace-nowrap rounded-md disabled:pointer-events-none w-",
+    "text": "Sign Up",
+    "visible": true
+  },
+  {
+    "tag": "a",
+    "cls": "underline hover:text-gray-700 dark:hover:text-gray-400",
+    "text": "Permission.ai",
+    "visible": true
+  },
+  {
+    "tag": "a",
+    "cls": "underline hover:text-gray-700 dark:hover:text-gray-400",
+    "text": "Terms of Use",
+    "visible": true
+  },
+  {
+    "tag": "a",
+    "cls": "underline hover:text-gray-700 dark:hover:text-gray-400",
+    "text": "Privacy Policy",
+    "visible": true
+  },
+  {
+    "tag": "a",
+    "cls": "text-sm",
+    "text": "Permission Home |",
+    "visible": true
+  },
+  {
+    "tag": "a",
+    "cls": "text-sm",
+    "text": "Privacy Policy |",
+    "visible": true
+  },
+  {
+    "tag": "a",
+    "cls": "text-sm",
+    "text": "Terms of Use |",
+    "visible": true
+  },
+  {
+    "tag": "a",
+    "cls": "text-sm",
+    "text": "Support",
+    "visible": true
+  }
+]

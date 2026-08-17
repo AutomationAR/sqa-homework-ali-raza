@@ -1,0 +1,40 @@
+- link "Permission":
+  - /url: /
+  - img "Permission"
+- button "Log in"
+- button "Sign Up"
+- img
+- heading "Permission Agent" [level=3]
+- paragraph: Here to help you Earn More
+- paragraph: Hello! How can I help you today?
+- text: 03:05 AM What is Permission.ai and how do I earn rewards? 03:05 AM
+- paragraph: Permission.ai helps you earn from your data. It acts as your personalized data broker. The more data you choose to share, the more you can earn with your AI agent managing your wallet and opportunities. You earn ASK tokens by sharing data, completing surveys, and completing automations. Would you like to know more about viewing offers or checking your ASK balance?
+- text: 03:05 AM
+- textbox "ASK anything..."
+- paragraph:
+  - text: Press
+  - code: Shift
+  - text: +
+  - code: Enter
+  - text: for new line.
+- button [disabled]
+- text: By using
+- link "Permission.ai":
+  - /url: https://www.permission.ai
+- text: ", you agree to our"
+- link "Terms of Use":
+  - /url: https://www.permission.ai/terms-of-use
+- text: and you acknowledge that you have read and understood our
+- link "Privacy Policy":
+  - /url: https://www.permission.ai/privacy-policy
+- text: ", and you consent to the collection, use, and disclosure of your information as described therein. Copyright © 2026 Permission.ai | Permission ® is a registered trademark of Permission.ai |"
+- link "Permission Home |":
+  - /url: https://www.permission.ai
+- link "Privacy Policy |":
+  - /url: https://permission.io/privacy-policy
+- link "Terms of Use |":
+  - /url: https://www.permission.io/terms-of-use
+- link "Support":
+  - /url: https://permission.deskpro.com
+- button "Manage Settings"
+- text: Manage Settings

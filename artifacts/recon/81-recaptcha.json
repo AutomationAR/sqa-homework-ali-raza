@@ -1,0 +1,11 @@
+{
+  "grecaptchaType": "object",
+  "captchaScripts": [
+    "https://www.gstatic.com/recaptcha/releases/XOqlk8PL_yVx6IdpLbpXdiLy/recaptcha__en.js",
+    "https://www.google.com/recaptcha/api.js?onload=onloadcallback&render=explicit"
+  ],
+  "captchaFrames": [
+    "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdnbLcqAAAAAFT7LtAFHqEDDXXH-Wt86xjeDj33&co=aHR0cHM6Ly9hc2sucGVybWlzc2lvbi5haTo0NDM.&hl=en&type=image&v=XOqlk8PL_yVx6IdpLbpXdiLy&theme=light&size=invisible&badge=bottomright&anchor-ms=20000&execute-ms=30000&cb=m3eae9swqdii"
+  ],
+  "badgePresent": true
+}

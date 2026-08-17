@@ -1,0 +1,206 @@
+{
+  "label": "desktop",
+  "samples": [
+    {
+      "tMs": 41,
+      "loggedOutCtas": 0,
+      "userWidget": 0
+    },
+    {
+      "tMs": 300,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 553,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 827,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 1080,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 1339,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 1607,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 1898,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 2151,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 2406,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 2666,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 2933,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 3229,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 3489,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 3754,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 4007,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 4263,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 4529,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 4783,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 5039,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 5307,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 5574,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 5831,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 6085,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 6338,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 6598,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 6860,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 7125,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 7393,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 7662,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 7915,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 8184,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 8448,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 8704,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 8955,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 9219,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 9483,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 9751,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 10020,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    },
+    {
+      "tMs": 10273,
+      "loggedOutCtas": 2,
+      "userWidget": 0
+    }
+  ],
+  "firstAuthMs": null
+}

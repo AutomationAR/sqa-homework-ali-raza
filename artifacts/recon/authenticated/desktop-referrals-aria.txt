@@ -1,0 +1,88 @@
+- link "Permission":
+  - /url: /
+  - img "Permission"
+- list:
+  - listitem:
+    - link "Permission Agent":
+      - /url: /
+  - listitem:
+    - link "Data Enrichment Hub":
+      - /url: /data-enrichment-hub
+  - listitem:
+    - link "Redeem":
+      - /url: /redeem/offers
+      - img
+      - text: Redeem
+  - listitem:
+    - link "Referrals":
+      - /url: /referrals
+      - img
+      - text: Referrals
+  - listitem:
+    - link "Wallet Coin Icon 100":
+      - /url: /wallet
+      - text: Wallet
+      - img "Coin Icon"
+      - text: "100"
+  - listitem:
+    - heading "Account Settings" [level=3]:
+      - button "Account Settings"
+- heading "referrals" [level=3]
+- button
+- link "Coin Icon 100":
+  - /url: /wallet
+  - img "Coin Icon"
+  - text: "100"
+- button "AR Ali Raza"
+- img
+- heading "My referral bonuses" [level=2]
+- img "Coin"
+- text: 0 ASK
+- heading "Referral milestones" [level=2]
+- paragraph: 10 referrals to the next milestone
+- text: 0 10 25 50 100
+- paragraph: Let's start your referral journey!
+- paragraph: Invite more people to hit your next referral milestone. Each milestone comes with an earning bonus and an increased user tier to unlock even more earning opportunities.
+- button "More About Referral Milestones Show More":
+  - heading "More About Referral Milestones" [level=3]
+  - text: Show More
+- tablist:
+  - img
+  - tab "All activity" [selected]
+  - tab "Pending"
+  - tab "Complete"
+  - tab "Bonus"
+- tabpanel "All activity": No referral activity found.
+- heading "Refer friends" [level=2]
+- paragraph: Get 1000 ASK
+- img "Star mascot"
+- heading "Your referral link" [level=3]
+- paragraph: Share this link with friends and earn rewards when they sign up and get verified.
+- paragraph: Share link
+- textbox: http://ask.permission.ai/register?rc=O116Zjji
+- button "Copy Copy":
+  - text: Copy
+  - img "Copy"
+- button "Share"
+- text: Invite Using Email
+- paragraph: Enter emails below and Permission will send an invite with your referral link.
+- text: Email address
+- textbox "you@permission.ai"
+- button "Add another"
+- button "Cancel"
+- button "Send Invites"
+- heading "Download Your Share Image" [level=3]
+- paragraph: Download your share image to generate a QR code unique to your link.
+- button "Share"
+- button "Download"
+- text: Copyright © 2026 Permission.ai | Permission ® is a registered trademark of Permission.ai |
+- link "Permission Home |":
+  - /url: https://www.permission.ai
+- link "Privacy Policy |":
+  - /url: https://permission.io/privacy-policy
+- link "Terms of Use |":
+  - /url: https://www.permission.io/terms-of-use
+- link "Support":
+  - /url: https://permission.deskpro.com
+- button "Manage Settings"
+- text: Manage Settings

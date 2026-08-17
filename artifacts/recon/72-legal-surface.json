@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-08-15T01:52:28.530Z",
+  "consentText": "Log inSign UpPermission AgentHere to help you Earn MoreHello! How can I help you today?06:52 AM Press Shift + Enter for new line.By using Permission.ai, you agree to our Terms of Use and you acknowledge that you have read and understood our Privacy Policy, and you consent to the collection, use, and disclosure of your information as described therein.Copyright © 2026 Permission.ai | Permission ® is a registered trademark of Permission.ai |Permission Home | Privacy Policy | Terms of Use | Support",
+  "links": [
+    {
+      "text": "Permission.ai",
+      "href": "https://www.permission.ai",
+      "resolved": "https://www.permission.ai/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "visible": true
+    },
+    {
+      "text": "Terms of Use",
+      "href": "https://www.permission.ai/terms-of-use",
+      "resolved": "https://www.permission.ai/terms-of-use",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "visible": true
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "https://www.permission.ai/privacy-policy",
+      "resolved": "https://www.permission.ai/privacy-policy",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "visible": true
+    },
+    {
+      "text": "Permission Home |",
+      "href": "https://www.permission.ai",
+      "resolved": "https://www.permission.ai/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "visible": true
+    },
+    {
+      "text": "Privacy Policy |",
+      "href": "https://permission.io/privacy-policy",
+      "resolved": "https://permission.io/privacy-policy",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "visible": true
+    },
+    {
+      "text": "Terms of Use |",
+      "href": "https://www.permission.io/terms-of-use",
+      "resolved": "https://www.permission.io/terms-of-use",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "visible": true
+    },
+    {
+      "text": "Support",
+      "href": "https://permission.deskpro.com",
+      "resolved": "https://permission.deskpro.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "visible": true
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "https://permission.io/privacy-policy/",
+      "resolved": "https://permission.io/privacy-policy/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "visible": false
+    },
+    {
+      "text": "More information",
+      "href": "https://cookiepedia.co.uk/giving-consent-to-cookies",
+      "resolved": "https://cookiepedia.co.uk/giving-consent-to-cookies",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "visible": false
+    }
+  ],
+  "statuses": {
+    "https://www.permission.ai/": 200,
+    "https://www.permission.ai/terms-of-use": 200,
+    "https://www.permission.ai/privacy-policy": 200,
+    "https://permission.io/privacy-policy": 200,
+    "https://www.permission.io/terms-of-use": 200,
+    "https://permission.deskpro.com/": 200,
+    "https://permission.io/privacy-policy/": 200,
+    "https://cookiepedia.co.uk/giving-consent-to-cookies": 200
+  }
+}

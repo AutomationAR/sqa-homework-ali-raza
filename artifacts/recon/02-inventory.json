@@ -1,0 +1,394 @@
+{
+  "testIdElements": [
+    {
+      "tag": "button",
+      "data-testid": "log-in-button",
+      "type": "button",
+      "class": "inline-flex items-center justify-around whitespace-nowrap rounded-md disabled:pointer-events-none w-fit dark:text-white bg-gray-50 hover:bg-gray-100 dark:bg-pri",
+      "text": "Log in",
+      "box": "1235,12 76x48"
+    },
+    {
+      "tag": "button",
+      "data-testid": "sign-up-button",
+      "type": "button",
+      "class": "inline-flex items-center justify-around whitespace-nowrap rounded-md disabled:pointer-events-none w-fit text-primary-900 bg-primary hover:bg-primary hover:borde",
+      "text": "Sign Up",
+      "box": "1319,12 89x48"
+    },
+    {
+      "tag": "h3",
+      "data-testid": "ai-page-title",
+      "class": "font-semibold",
+      "text": "Permission Agent",
+      "box": "280,92 171x24"
+    },
+    {
+      "tag": "p",
+      "data-testid": "ai-page-description",
+      "class": "text-sm text-gray-600",
+      "text": "Here to help you Earn More",
+      "box": "280,116 171x20"
+    },
+    {
+      "tag": "textarea",
+      "data-testid": "agent-chat-input",
+      "placeholder": "ASK anything...",
+      "class": "resize-none max-h-[105px] w-full px-3 py-2 text-base rounded-md border shadow-xs outline-none dark:bg-gray-800 dark:border-gray-600 dark:text-white dark:placeho",
+      "box": "240,672 911x40"
+    },
+    {
+      "tag": "button",
+      "data-testid": "agent-chat-input-send-button",
+      "class": "inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none",
+      "box": "1159,672 41x36"
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "class": "block xl:hidden",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "button",
+      "data-testid": "log-in-button",
+      "type": "button",
+      "class": "inline-flex items-center justify-around whitespace-nowrap rounded-md disabled:pointer-events-none w-fit dark:text-white bg-gray-50 hover:bg-gray-100 dark:bg-pri",
+      "text": "Log in",
+      "box": "1235,12 76x48"
+    },
+    {
+      "tag": "button",
+      "data-testid": "sign-up-button",
+      "type": "button",
+      "class": "inline-flex items-center justify-around whitespace-nowrap rounded-md disabled:pointer-events-none w-fit text-primary-900 bg-primary hover:bg-primary hover:borde",
+      "text": "Sign Up",
+      "box": "1319,12 89x48"
+    },
+    {
+      "tag": "button",
+      "data-testid": "agent-chat-input-send-button",
+      "class": "inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none",
+      "box": "1159,672 41x36"
+    },
+    {
+      "tag": "button",
+      "aria-label": "Cookies",
+      "role": "button",
+      "id": "onetrust-cookie-btn",
+      "class": "ot-link-btn",
+      "text": "Cookies Button",
+      "box": "45,743 64x64"
+    },
+    {
+      "tag": "button",
+      "id": "onetrust-accept-btn-handler",
+      "text": "Accept All",
+      "box": "821,707 160x36"
+    },
+    {
+      "tag": "button",
+      "id": "onetrust-reject-all-handler",
+      "text": "Reject All",
+      "box": "821,753 160x36"
+    },
+    {
+      "tag": "button",
+      "aria-label": "Manage Settings, Opens the preference center dialog",
+      "id": "onetrust-pc-btn-handler",
+      "class": "cookie-setting-link",
+      "text": "Manage Settings",
+      "box": "821,798 160x34"
+    },
+    {
+      "tag": "button",
+      "aria-label": "Close preference center",
+      "id": "close-pc-btn-handler",
+      "class": "ot-close-icon",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "button",
+      "aria-label": "Back",
+      "class": "ot-link-btn back-btn-handler",
+      "text": "Back Button",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "button",
+      "aria-label": "Filter Cookie List",
+      "id": "filter-btn-handler",
+      "text": "Filter Button",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "button",
+      "id": "clear-filters-handler",
+      "text": "Clear",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "button",
+      "id": "filter-apply-handler",
+      "text": "Apply",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "button",
+      "id": "filter-cancel-handler",
+      "text": "Cancel",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "button",
+      "class": "save-preference-btn-handler onetrust-close-btn-handler",
+      "text": "Confirm My Choices",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "button",
+      "class": "ot-pc-refuse-all-handler",
+      "text": "Reject All",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "button",
+      "id": "accept-recommended-btn-handler",
+      "text": "Allow All",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "button",
+      "aria-label": "Manage Settings",
+      "type": "button",
+      "class": "ot-floating-button__open",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "button",
+      "aria-label": "Close Preferences",
+      "type": "button",
+      "class": "ot-floating-button__close",
+      "box": "0,0 0x0"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "textarea",
+      "data-testid": "agent-chat-input",
+      "placeholder": "ASK anything...",
+      "class": "resize-none max-h-[105px] w-full px-3 py-2 text-base rounded-md border shadow-xs outline-none dark:bg-gray-800 dark:border-gray-600 dark:text-white dark:placeho",
+      "box": "240,672 911x40"
+    },
+    {
+      "tag": "input",
+      "name": "ot-group-id-C0002",
+      "type": "checkbox",
+      "id": "ot-group-id-C0002",
+      "class": "category-switch-handler",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "input",
+      "name": "ot-group-id-C0003",
+      "type": "checkbox",
+      "id": "ot-group-id-C0003",
+      "class": "category-switch-handler",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "input",
+      "name": "ot-group-id-C0004",
+      "type": "checkbox",
+      "id": "ot-group-id-C0004",
+      "class": "category-switch-handler",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "input",
+      "aria-label": "Cookie list search",
+      "name": "vendor-search-handler",
+      "placeholder": "Search…",
+      "type": "text",
+      "id": "vendor-search-handler",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "id": "select-all-hosts-groups-handler",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "id": "select-all-vendor-groups-handler",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "id": "select-all-vendor-leg-handler",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "id": "chkbox-id",
+      "class": "category-filter-handler",
+      "box": "0,0 0x0"
+    }
+  ],
+  "links": [
+    {
+      "tag": "a",
+      "box": "32,17 163x38"
+    },
+    {
+      "tag": "a",
+      "class": "underline hover:text-gray-700 dark:hover:text-gray-400",
+      "text": "Permission.ai",
+      "box": "304,760 69x14"
+    },
+    {
+      "tag": "a",
+      "class": "underline hover:text-gray-700 dark:hover:text-gray-400",
+      "text": "Terms of Use",
+      "box": "471,760 70x14"
+    },
+    {
+      "tag": "a",
+      "class": "underline hover:text-gray-700 dark:hover:text-gray-400",
+      "text": "Privacy Policy",
+      "box": "875,760 73x14"
+    },
+    {
+      "tag": "a",
+      "class": "text-sm",
+      "text": "Permission Home |",
+      "box": "575,864 120x17"
+    },
+    {
+      "tag": "a",
+      "class": "text-sm",
+      "text": "Privacy Policy |",
+      "box": "695,864 96x17"
+    },
+    {
+      "tag": "a",
+      "class": "text-sm",
+      "text": "Terms of Use |",
+      "box": "791,864 92x17"
+    },
+    {
+      "tag": "a",
+      "class": "text-sm",
+      "text": "Support",
+      "box": "884,864 51x17"
+    },
+    {
+      "tag": "a",
+      "aria-label": "More information about your privacy, opens in a new tab",
+      "class": "ot-cookie-policy-link",
+      "text": "Privacy Policy",
+      "box": "570,782 93x18"
+    },
+    {
+      "tag": "a",
+      "aria-label": "More information about your privacy, opens in a new tab",
+      "class": "privacy-notice-link",
+      "text": "More information",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "a",
+      "aria-label": "Powered by OneTrust Opens in a new Tab",
+      "box": "0,0 0x0"
+    }
+  ],
+  "forms": [],
+  "headings": [
+    {
+      "tag": "h3",
+      "data-testid": "ai-page-title",
+      "class": "font-semibold",
+      "text": "Permission Agent",
+      "box": "280,92 171x24"
+    },
+    {
+      "tag": "h2",
+      "id": "onetrust-policy-title",
+      "text": "Cookie Notice",
+      "box": "130,726 118x23"
+    },
+    {
+      "tag": "h2",
+      "id": "ot-pc-title",
+      "text": "Privacy Preference Center",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "h2",
+      "id": "ot-pc-title-mobile",
+      "text": "Privacy Preference Center",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "h3",
+      "id": "ot-pvcy-txt",
+      "text": "Your Privacy",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "h3",
+      "id": "ot-header-id-C0001",
+      "text": "Strictly Necessary Cookies",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "h3",
+      "id": "ot-header-id-C0002",
+      "text": "Performance Cookies",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "h3",
+      "id": "ot-header-id-C0003",
+      "text": "Functional Cookies",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "h3",
+      "id": "ot-header-id-C0004",
+      "text": "Targeting Cookies",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "h3",
+      "text": "Cookie List",
+      "box": "0,0 0x0"
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "div",
+      "aria-label": "Cookie Categories",
+      "role": "navigation",
+      "class": "ot-sdk-four ot-sdk-columns ot-tab-list",
+      "text": "Privacy Preference CenterYour PrivacyStrictly Necessary CookiesPerformance CookiesFunctional CookiesTargeting Cookies",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "p",
+      "role": "status",
+      "class": "ot-scrn-rdr",
+      "box": "0,0 0x0"
+    },
+    {
+      "tag": "span",
+      "class": "ot-scrn-rdr",
+      "box": "0,0 0x0"
+    }
+  ]
+}

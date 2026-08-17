@@ -1,0 +1,55 @@
+[
+  {
+    "tag": "button",
+    "testid": "log-in-button",
+    "cls": "inline-flex items-center justify-around whitespace-nowrap rounded-md disabled:pointer-events-none w-fit dark:text-white ",
+    "text": "Log in",
+    "visible": true
+  },
+  {
+    "tag": "button",
+    "testid": "sign-up-button",
+    "cls": "inline-flex items-center justify-around whitespace-nowrap rounded-md disabled:pointer-events-none w-fit text-primary-900",
+    "text": "Sign Up",
+    "visible": true
+  },
+  {
+    "tag": "h3",
+    "testid": "ai-page-title",
+    "cls": "font-semibold",
+    "text": "Permission Agent",
+    "visible": true
+  },
+  {
+    "tag": "p",
+    "testid": "ai-page-description",
+    "cls": "text-sm text-gray-600",
+    "text": "Here to help you Earn More",
+    "visible": true
+  },
+  {
+    "tag": "textarea",
+    "testid": "agent-chat-input",
+    "cls": "resize-none max-h-[105px] w-full px-3 py-2 text-base rounded-md border shadow-xs outline-none dark:bg-gray-800 dark:bord",
+    "visible": true
+  },
+  {
+    "tag": "button",
+    "testid": "agent-chat-input-send-button",
+    "cls": "inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disable",
+    "visible": true
+  },
+  {
+    "tag": "p",
+    "role": "status",
+    "cls": "ot-scrn-rdr",
+    "visible": false
+  },
+  {
+    "tag": "span",
+    "ariaLive": "polite",
+    "cls": "ot-scrn-rdr",
+    "text": "Your Privacy [`dialog closed`]",
+    "visible": false
+  }
+]

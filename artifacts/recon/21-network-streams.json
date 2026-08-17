@@ -1,0 +1,14 @@
+[
+  "200 GET https://us-assets.i.posthog.com/array/phc_w63zR5rn35AzyiKmQ6sKiR8fwYsM46q4WaiHahwkYII/config?ip=0&_=1786745141747&ver=1.279.0 [application/json]",
+  "200 GET https://ask.permission.ai/api/agent/suggestions-unauthenticated [application/json; charset=utf-8]",
+  "200 GET https://api.web3modal.org/getWallets?projectId=0cf5a040f205b410af35530df3ee8191&st=appkit&sv=react-wagmi-1.5.1&page=1&chains=eip155%3A137&entries=4&include=c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96%2Cc03dfee351b6fcc421b4494ea33b9d4b92a984f87aa76d1663bb28705e95034a%2Cef333840daf915aafdc4a004525502d6d49d77bd9c65e0642dbaefb3c2893bef%2C0b415a746fb9ee99cce155c2ceca0c6f6061b1dbca2d722b3ba16381d0562150&exclude=c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96%2Cc03dfee351b6fcc421b4494ea33b9d4b92a984f87aa76d1663bb28705e95034a%2Cef333840daf915aafdc4a004525502d6d49d77bd9c65e0642dbaefb3c2893bef%2C0b415a746fb9ee99cce155c2ceca0c6f6061b1dbca2d722b3ba16381d0562150 [application/json; charset=UTF-8]",
+  "200 GET https://api.web3modal.org/getAnalyticsConfig?projectId=0cf5a040f205b410af35530df3ee8191&st=appkit&sv=react-wagmi-1.5.1 [application/json; charset=UTF-8]",
+  "200 GET https://api.web3modal.org/getWallets?projectId=0cf5a040f205b410af35530df3ee8191&st=appkit&sv=react-wagmi-1.5.1&page=1&entries=4&include=c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96%2Cc03dfee351b6fcc421b4494ea33b9d4b92a984f87aa76d1663bb28705e95034a%2Cef333840daf915aafdc4a004525502d6d49d77bd9c65e0642dbaefb3c2893bef%2C0b415a746fb9ee99cce155c2ceca0c6f6061b1dbca2d722b3ba16381d0562150 [application/json; charset=UTF-8]",
+  "200 POST https://us.i.posthog.com/flags/?v=2&config=true&ip=0&_=1786745141739&ver=1.261.0&compression=base64 [application/json]",
+  "200 POST https://us.i.posthog.com/flags/?v=2&config=true&ip=0&_=1786745141748&ver=1.279.0&compression=base64 [application/json]",
+  "200 GET https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location [application/json]",
+  "200 GET https://pixel-config.reddit.com/pixels/a2_glob22zi2c3e/config [application/json]",
+  "200 POST https://ask.permission.ai/api/agent/ask-unauthenticated [application/json; charset=utf-8]",
+  "200 POST https://privacyportal.onetrust.com/request/v1/consentreceipts/anonymous [application/json]",
+  "200 POST https://ask.permission.ai/api/agent/ask-unauthenticated [application/json; charset=utf-8]"
+]

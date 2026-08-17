@@ -1,0 +1,47 @@
+- link "Permission":
+  - /url: /
+  - img "Permission"
+- button "Log in"
+- button "Sign Up"
+- img
+- heading "Permission Agent" [level=3]
+- paragraph: Here to help you Earn More
+- paragraph: Hello! I'm your Permission Agent, here to help you understand Permission.ai. How can I assist you today?
+- text: 03:04 AM
+- textbox "ASK anything..."
+- paragraph:
+  - text: Press
+  - code: Shift
+  - text: +
+  - code: Enter
+  - text: for new line.
+- button [disabled]
+- text: By using
+- link "Permission.ai":
+  - /url: https://www.permission.ai
+- text: ", you agree to our"
+- link "Terms of Use":
+  - /url: https://www.permission.ai/terms-of-use
+- text: and you acknowledge that you have read and understood our
+- link "Privacy Policy":
+  - /url: https://www.permission.ai/privacy-policy
+- text: ", and you consent to the collection, use, and disclosure of your information as described therein. Copyright © 2026 Permission.ai | Permission ® is a registered trademark of Permission.ai |"
+- link "Permission Home |":
+  - /url: https://www.permission.ai
+- link "Privacy Policy |":
+  - /url: https://permission.io/privacy-policy
+- link "Terms of Use |":
+  - /url: https://www.permission.io/terms-of-use
+- link "Support":
+  - /url: https://permission.deskpro.com
+- dialog "Cookie Notice":
+  - button "Cookies":
+    - img "Cookies Button"
+  - heading "Cookie Notice" [level=2]
+  - text: Permission uses cookies and other personal information to improve your experience. You can manage your privacy settings by clicking ‘Manage Settings.’ See our
+  - link "More information about your privacy, opens in a new tab":
+    - /url: https://permission.io/privacy-policy/
+    - text: Privacy Policy
+  - button "Accept All"
+  - button "Reject All"
+  - button "Manage Settings, Opens the preference center dialog": Manage Settings

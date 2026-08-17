@@ -1,0 +1,15 @@
+{
+  "timeline": [
+    "t=2.5s path=/login submitDisabled=true",
+    "t=5s path=/login submitDisabled=true",
+    "t=7.5s path=/login submitDisabled=true",
+    "t=10s path=/login submitDisabled=true",
+    "t=12.5s path=/login submitDisabled=true",
+    "t=15s path=/login submitDisabled=true",
+    "t=17.5s path=/login submitDisabled=true",
+    "t=20s path=/login submitDisabled=true"
+  ],
+  "calls": [],
+  "consoleErrors": [],
+  "finalUrl": "https://ask.permission.ai/login"
+}

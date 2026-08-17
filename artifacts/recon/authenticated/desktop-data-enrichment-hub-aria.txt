@@ -1,0 +1,78 @@
+- link "Permission":
+  - /url: /
+  - img "Permission"
+- list:
+  - listitem:
+    - link "Permission Agent":
+      - /url: /
+  - listitem:
+    - link "Data Enrichment Hub":
+      - /url: /data-enrichment-hub
+  - listitem:
+    - link "Redeem":
+      - /url: /redeem/offers
+      - img
+      - text: Redeem
+  - listitem:
+    - link "Referrals":
+      - /url: /referrals
+      - img
+      - text: Referrals
+  - listitem:
+    - link "Wallet Coin Icon 100":
+      - /url: /wallet
+      - text: Wallet
+      - img "Coin Icon"
+      - text: "100"
+  - listitem:
+    - heading "Account Settings" [level=3]:
+      - button "Account Settings"
+- heading "Data Enrichment Hub" [level=3]
+- button
+- link "Coin Icon 100":
+  - /url: /wallet
+  - img "Coin Icon"
+  - text: "100"
+- button "AR Ali Raza"
+- heading "Welcome Ali!" [level=3]
+- region:
+  - group:
+    - heading "Opt-in to a brand" [level=2]
+    - button "Learn more":
+      - img "Chevron Right"
+    - paragraph: This is our term for connecting with a brand and sharing data
+  - group:
+    - heading "Claim Your .ask Domain" [level=2]
+    - paragraph: Own your digital identity with a unique .ask web3 domain
+    - button "Get Started Chevron Right":
+      - text: Get Started
+      - img "Chevron Right"
+- heading "Top Offers For You" [level=3]
+- region:
+  - group:
+    - link "Permission User Survey Brand logo Permission User Survey Coin 25 ASK":
+      - /url: /offer/587lGmZxKVTIBmjq5Jvyki
+      - img "Permission User Survey"
+      - img "Brand logo"
+      - heading "Permission User Survey" [level=3]
+      - img "Coin"
+      - heading "25 ASK" [level=3]
+- heading "Promotions" [level=3]
+- region:
+  - group:
+    - paragraph: Permission User Survey
+    - paragraph: Permission wants to reward you for sharing feedback.
+    - link "5 Minute Survey":
+      - /url: https://ask.permission.io/offer/587lGmZxKVTIBmjq5Jvyki?p_id=accfbd65-88e9-47ab-8e59-03c9f9d41f56
+      - button "5 Minute Survey"
+- text: Copyright © 2026 Permission.ai | Permission ® is a registered trademark of Permission.ai |
+- link "Permission Home |":
+  - /url: https://www.permission.ai
+- link "Privacy Policy |":
+  - /url: https://permission.io/privacy-policy
+- link "Terms of Use |":
+  - /url: https://www.permission.io/terms-of-use
+- link "Support":
+  - /url: https://permission.deskpro.com
+- button "Manage Settings"
+- text: Manage Settings

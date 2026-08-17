@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-08-15T01:10:58.714Z",
+  "base": "https://ask.permission.ai",
+  "results": {
+    "desktop-1440x900": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.34 Safari/537.36",
+      "webdriver": true,
+      "inVisibleText": [],
+      "inRawHtml": [],
+      "hasSuggestedTopicsLabel": false,
+      "hasDownloadExtension": false,
+      "hasLogIn": true
+    },
+    "mobile-393x851": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.34 Safari/537.36",
+      "webdriver": true,
+      "inVisibleText": [],
+      "inRawHtml": [],
+      "hasSuggestedTopicsLabel": false,
+      "hasDownloadExtension": false,
+      "hasLogIn": true
+    }
+  }
+}

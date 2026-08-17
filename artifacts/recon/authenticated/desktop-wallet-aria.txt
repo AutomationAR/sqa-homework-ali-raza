@@ -1,0 +1,90 @@
+- link "Permission":
+  - /url: /
+  - img "Permission"
+- list:
+  - listitem:
+    - link "Permission Agent":
+      - /url: /
+  - listitem:
+    - link "Data Enrichment Hub":
+      - /url: /data-enrichment-hub
+  - listitem:
+    - link "Redeem":
+      - /url: /redeem/offers
+      - img
+      - text: Redeem
+  - listitem:
+    - link "Referrals":
+      - /url: /referrals
+      - img
+      - text: Referrals
+  - listitem:
+    - link "Wallet Coin Icon 100":
+      - /url: /wallet
+      - text: Wallet
+      - img "Coin Icon"
+      - text: "100"
+  - listitem:
+    - heading "Account Settings" [level=3]:
+      - button "Account Settings"
+- heading "wallet" [level=3]
+- button
+- link "Coin Icon 100":
+  - /url: /wallet
+  - img "Coin Icon"
+  - text: "100"
+- button "AR Ali Raza"
+- tablist:
+  - tab "Balances" [selected]
+  - tab "Earning Activity"
+- paragraph: Total Balance
+- img "Permission Coin"
+- heading "100 ASK" [level=1]
+- heading "Earn withdrawal minimum" [level=2]
+- paragraph: Due to transfer restrictions, you'll need at least 4,900 ASK to make a withdrawal.
+- text: 100 5,000
+- progressbar
+- paragraph: 4,900 ASK needed to withdraw
+- paragraph: Wallets
+- paragraph:
+  - img
+  - text: 0 ASK
+- button "All Chains"
+- button "Polygon":
+  - img "Polygon"
+- button "Base":
+  - img "Base"
+- button
+- img "Wallet Logo"
+- heading "Permission wallet" [level=3]
+- paragraph: 0 ASK
+- img "Chevron Right"
+- button "Connect wallet"
+- button "Add .ASK Domain"
+- heading "Wallet FAQ" [level=3]
+- heading "How to withdraw" [level=3]:
+  - button "How to withdraw"
+- heading "How to send ASK" [level=3]:
+  - button "How to send ASK"
+- heading "Why is there a withdrawal limit?" [level=3]:
+  - button "Why is there a withdrawal limit?"
+- heading "What is ASK?" [level=3]:
+  - button "What is ASK?"
+- paragraph: Pending
+- paragraph:
+  - img
+  - text: 100 ASK
+- paragraph: Great Start!
+- paragraph: You have collected 2% of the ASK needed. Please continue earning to reach the withdrawal threshold.
+- button "Withdraw ASK" [disabled]
+- text: Copyright © 2026 Permission.ai | Permission ® is a registered trademark of Permission.ai |
+- link "Permission Home |":
+  - /url: https://www.permission.ai
+- link "Privacy Policy |":
+  - /url: https://permission.io/privacy-policy
+- link "Terms of Use |":
+  - /url: https://www.permission.io/terms-of-use
+- link "Support":
+  - /url: https://permission.deskpro.com
+- button "Manage Settings"
+- text: Manage Settings

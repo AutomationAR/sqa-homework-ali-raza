@@ -1,0 +1,108 @@
+- link "Permission":
+  - /url: /
+  - img "Permission"
+- list:
+  - listitem:
+    - link "Permission Agent":
+      - /url: /
+  - listitem:
+    - link "Data Enrichment Hub":
+      - /url: /data-enrichment-hub
+  - listitem:
+    - link "Redeem":
+      - /url: /redeem/offers
+      - img
+      - text: Redeem
+  - listitem:
+    - link "Referrals":
+      - /url: /referrals
+      - img
+      - text: Referrals
+  - listitem:
+    - link "Wallet Coin Icon 100":
+      - /url: /wallet
+      - text: Wallet
+      - img "Coin Icon"
+      - text: "100"
+  - listitem:
+    - heading "Account Settings" [level=3]:
+      - button "Account Settings"
+- heading "redeem" [level=3]
+- button
+- link "Coin Icon 100":
+  - /url: /wallet
+  - img "Coin Icon"
+  - text: "100"
+- button "AR Ali Raza"
+- region:
+  - group:
+    - heading "Opt-in to a brand" [level=2]
+    - button "Learn more":
+      - img "Chevron Right"
+    - paragraph: This is our term for connecting with a brand and sharing data
+  - group:
+    - heading "Claim Your .ask Domain" [level=2]
+    - paragraph: Own your digital identity with a unique .ask web3 domain
+    - button "Get Started Chevron Right":
+      - text: Get Started
+      - img "Chevron Right"
+- text: Past Offers
+- img "Starbucks"
+- text: Ended on Sunday, June 1 at 8:59 AM
+- img "Brand logo"
+- heading "Starbucks" [level=3]
+- img "Coin"
+- heading "20,000 ASK" [level=3]
+- img "Apple"
+- text: Ended on Tuesday, July 1 at 8:59 AM
+- img "Brand logo"
+- heading "Apple" [level=3]
+- img "Coin"
+- heading "20,000 ASK" [level=3]
+- img "Nintendo"
+- text: Ended on Thursday, October 2 at 8:59 AM
+- img "Brand logo"
+- heading "Nintendo" [level=3]
+- img "Coin"
+- heading "40,000 ASK" [level=3]
+- img "Apple and iTunes US"
+- text: Ended on Friday, January 2 at 9:59 AM
+- img "Brand logo"
+- heading "Apple and iTunes US" [level=3]
+- img "Coin"
+- heading "20,000 ASK" [level=3]
+- img "Netflix"
+- text: Ended on Tuesday, April 1 at 8:59 AM
+- img "Brand logo"
+- heading "Netflix" [level=3]
+- img "Coin"
+- heading "40,000 ASK" [level=3]
+- img "Spotify"
+- text: Ended on Monday, September 1 at 8:59 AM
+- img "Brand logo"
+- heading "Spotify" [level=3]
+- img "Coin"
+- heading "40,000 ASK" [level=3]
+- img "Google Play - $10"
+- text: Ended on Wednesday, January 7 at 9:59 AM
+- img "Brand logo"
+- heading "Google Play - $10" [level=3]
+- img "Coin"
+- heading "40,000 ASK" [level=3]
+- img "Google Play - $5"
+- text: Ended on Sunday, June 1 at 8:59 AM
+- img "Brand logo"
+- heading "Google Play - $5" [level=3]
+- img "Coin"
+- heading "20,000 ASK" [level=3]
+- text: Copyright © 2026 Permission.ai | Permission ® is a registered trademark of Permission.ai |
+- link "Permission Home |":
+  - /url: https://www.permission.ai
+- link "Privacy Policy |":
+  - /url: https://permission.io/privacy-policy
+- link "Terms of Use |":
+  - /url: https://www.permission.io/terms-of-use
+- link "Support":
+  - /url: https://permission.deskpro.com
+- button "Manage Settings"
+- text: Manage Settings

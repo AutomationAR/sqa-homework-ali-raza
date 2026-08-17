@@ -1,0 +1,349 @@
+{
+  "url": "https://ask.permission.ai/referrals",
+  "title": "Referrals - Permission.ai",
+  "overflow": {
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "horizontallyScrolls": false
+  },
+  "liveRegions": [
+    {
+      "tag": "p",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "span",
+      "text": "Your Privacy [`dialog closed`]",
+      "box": "0,0 0x0",
+      "visible": false
+    }
+  ],
+  "testids": [
+    {
+      "tag": "button",
+      "testid": "user-widget-button",
+      "text": "ARAli Raza",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "div",
+      "testid": "notification-widget-button",
+      "box": "1071,24 24x24",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "user-widget-button",
+      "text": "ARAli Raza",
+      "box": "1274,16 130x40",
+      "visible": true
+    },
+    {
+      "tag": "h2",
+      "testid": "referrals-hero-section-title",
+      "text": "My referral bonuses",
+      "box": "588,176 160x28",
+      "visible": true
+    },
+    {
+      "tag": "span",
+      "testid": "referrals-hero-section-total-earnings",
+      "text": "0 ASK",
+      "box": "637,216 102x40",
+      "visible": true
+    },
+    {
+      "tag": "p",
+      "testid": "referrals-milestones-section-remaining-referrals",
+      "text": "10 referrals to the next milestone",
+      "box": "349,369 638x20",
+      "visible": true
+    },
+    {
+      "tag": "div",
+      "testid": "referrals-recent-activity-empty-state",
+      "text": "No referral activity found.",
+      "box": "349,821 638x24",
+      "visible": true
+    },
+    {
+      "tag": "input",
+      "testid": "share-referral-link-input",
+      "box": "1055,496 201x20",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "share-referral-link-copy-button",
+      "text": "Copy",
+      "box": "1035,547 116x44",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "share-referral-link-share-button",
+      "text": "Share",
+      "box": "1162,547 114x44",
+      "visible": true
+    },
+    {
+      "tag": "input",
+      "testid": "invite-using-email-input",
+      "box": "1079,849 177x20",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "invite-using-email-add-button",
+      "text": "Add another",
+      "box": "1035,900 111x24",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "invite-using-email-cancel-button",
+      "text": "Cancel",
+      "box": "1035,940 116x48",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "invite-using-email-send-button",
+      "text": "Send Invites",
+      "box": "1162,940 114x48",
+      "visible": true
+    },
+    {
+      "tag": "input",
+      "testid": "share-referral-link-input",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "testid": "share-referral-link-copy-button",
+      "text": "Copy",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "testid": "share-referral-link-share-button",
+      "text": "Share",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "input",
+      "testid": "invite-using-email-input",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "testid": "invite-using-email-add-button",
+      "text": "Add another",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "testid": "invite-using-email-cancel-button",
+      "text": "Cancel",
+      "box": "0,0 0x0",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "testid": "invite-using-email-send-button",
+      "text": "Send Invites",
+      "box": "0,0 0x0",
+      "visible": false
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "text": "Account Settings",
+      "box": "16,442 207x56",
+      "visible": true
+    },
+    {
+      "tag": "div",
+      "testid": "notification-widget-button",
+      "box": "1071,24 24x24",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "user-widget-button",
+      "text": "ARAli Raza",
+      "box": "1274,16 130x40",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "More About Referral MilestonesShow More",
+      "box": "365,663 606x24",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "All activity",
+      "box": "373,751 67x38",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Pending",
+      "box": "455,751 51x38",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Complete",
+      "box": "522,751 62x38",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Bonus",
+      "box": "600,751 39x38",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "share-referral-link-copy-button",
+      "text": "Copy",
+      "box": "1035,547 116x44",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "share-referral-link-share-button",
+      "text": "Share",
+      "box": "1162,547 114x44",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "invite-using-email-add-button",
+      "text": "Add another",
+      "box": "1035,900 111x24",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "invite-using-email-cancel-button",
+      "text": "Cancel",
+      "box": "1035,940 116x48",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "testid": "invite-using-email-send-button",
+      "text": "Send Invites",
+      "box": "1162,940 114x48",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Share",
+      "box": "1035,1205 102x48",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "text": "Download",
+      "box": "1149,1205 128x48",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "ariaLabel": "Manage Settings",
+      "box": "14,840 50x50",
+      "visible": true
+    }
+  ],
+  "links": [
+    {
+      "tag": "a",
+      "href": "/",
+      "box": "16,16 207x38",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/",
+      "text": "Permission Agent",
+      "box": "16,86 207x56",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/data-enrichment-hub",
+      "text": "Data Enrichment Hub",
+      "box": "16,150 207x80",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/redeem/offers",
+      "text": "Redeem",
+      "box": "16,238 207x56",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/referrals",
+      "text": "Referrals",
+      "box": "16,302 207x56",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/wallet",
+      "text": "Wallet100",
+      "box": "16,366 207x68",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "/wallet",
+      "text": "100",
+      "box": "1135,18 96x36",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.ai",
+      "text": "Permission Home |",
+      "box": "815,864 120x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://permission.io/privacy-policy",
+      "text": "Privacy Policy |",
+      "box": "935,864 96x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://www.permission.io/terms-of-use",
+      "text": "Terms of Use |",
+      "box": "1031,864 92x17",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "href": "https://permission.deskpro.com",
+      "text": "Support",
+      "box": "1124,864 51x17",
+      "visible": true
+    }
+  ],
+  "messageBubbles": []
+}

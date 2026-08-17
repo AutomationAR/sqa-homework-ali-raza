@@ -1,0 +1,21 @@
+- link "permission logo":
+  - /url: /login
+  - img "permission logo"
+- img "Permission Logo"
+- heading "Log in to your account" [level=2]
+- heading "Welcome back! Please enter your details." [level=6]
+- text: Email
+- textbox "Email"
+- text: Password
+- textbox "Password"
+- link "Forgot password?":
+  - /url: /reset-password
+- iframe
+- button "Log in"
+- paragraph:
+  - text: Don’t have an account?
+  - link "Sign up and earn":
+    - /url: /register?redirect_url=/
+- text: + ASK
+- button "Manage Settings"
+- text: Manage Settings
