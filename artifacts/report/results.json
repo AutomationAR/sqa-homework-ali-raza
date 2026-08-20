@@ -2,11 +2,11 @@
   "config": {
     "argv": [
       "C:\\Program Files\\nodejs\\node.exe",
-      "C:\\Qa\\Qa\\sqa-homework-ali\\node_modules\\@playwright\\test\\cli.js",
+      "C:\\Qa\\Qa\\sqa-homework-ali-raza\\node_modules\\@playwright\\test\\cli.js",
       "test"
     ],
-    "configFile": "C:\\Qa\\Qa\\sqa-homework-ali\\playwright.config.ts",
-    "rootDir": "C:/Qa/Qa/sqa-homework-ali/tests",
+    "configFile": "C:\\Qa\\Qa\\sqa-homework-ali-raza\\playwright.config.ts",
+    "rootDir": "C:/Qa/Qa/sqa-homework-ali-raza/tests",
     "failOnFlakyTests": false,
     "forbidOnly": false,
     "fullyParallel": false,
@@ -22,7 +22,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "C:/Qa/Qa/sqa-homework-ali/artifacts/test-results",
+        "outputDir": "C:/Qa/Qa/sqa-homework-ali-raza/artifacts/test-results",
         "repeatEach": 1,
         "retries": 1,
         "metadata": {
@@ -30,7 +30,7 @@
         },
         "id": "desktop-chromium",
         "name": "desktop-chromium",
-        "testDir": "C:/Qa/Qa/sqa-homework-ali/tests",
+        "testDir": "C:/Qa/Qa/sqa-homework-ali-raza/tests",
         "testIgnore": [
           "/mobile\\.spec\\.ts/"
         ],
@@ -40,7 +40,7 @@
         "timeout": 90000
       },
       {
-        "outputDir": "C:/Qa/Qa/sqa-homework-ali/artifacts/test-results",
+        "outputDir": "C:/Qa/Qa/sqa-homework-ali-raza/artifacts/test-results",
         "repeatEach": 1,
         "retries": 1,
         "metadata": {
@@ -48,7 +48,7 @@
         },
         "id": "mobile-chrome",
         "name": "mobile-chrome",
-        "testDir": "C:/Qa/Qa/sqa-homework-ali/tests",
+        "testDir": "C:/Qa/Qa/sqa-homework-ali-raza/tests",
         "testIgnore": [],
         "testMatch": [
           "/mobile\\.spec\\.ts/"
@@ -118,12 +118,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16366,
+                      "duration": 14841,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-17T20:19:46.311Z",
+                      "startTime": "2026-08-20T11:23:34.734Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -158,7 +158,7 @@
                   "type": "fail",
                   "description": "BUG-1: the API serves enabled anonymous suggested topics and the page renders none of them. Annotated test.fail() so the suite stays green; run with EXPECT_PILLS=1 to assert strictly.",
                   "location": {
-                    "file": "C:\\Qa\\Qa\\sqa-homework-ali\\tests\\02-suggested-topics.spec.ts",
+                    "file": "C:\\Qa\\Qa\\sqa-homework-ali-raza\\tests\\02-suggested-topics.spec.ts",
                     "line": 65,
                     "column": 8
                   }
@@ -172,12 +172,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "failed",
-                  "duration": 38245,
+                  "duration": 28354,
                   "error": {
-                    "message": "Error: 0/6 suggested topics rendered as visible pills after 12039ms.\n  None of the titles appear in the page's raw HTML at all, so the payload was fetched and discarded rather than hidden by CSS.\n  served by /api/agent/suggestions-unauthenticated: What is Permission | Best way to earn ASK | How permission uses my data | What is passive earning | What is data ownership | Permission Wallet\n  visible interactive controls on the page: Log in | Sign Up | Permission.ai | Terms of Use | Privacy Policy | Permission Home | | Privacy Policy | | Terms of Use | | Support\n  titles found in visible page text (bubbles included): none\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 8\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"What is Permission\",\u001b[39m\n\u001b[31m+   \"Best way to earn ASK\",\u001b[39m\n\u001b[31m+   \"How permission uses my data\",\u001b[39m\n\u001b[31m+   \"What is passive earning\",\u001b[39m\n\u001b[31m+   \"What is data ownership\",\u001b[39m\n\u001b[31m+   \"Permission Wallet\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
-                    "stack": "Error: 0/6 suggested topics rendered as visible pills after 12039ms.\n  None of the titles appear in the page's raw HTML at all, so the payload was fetched and discarded rather than hidden by CSS.\n  served by /api/agent/suggestions-unauthenticated: What is Permission | Best way to earn ASK | How permission uses my data | What is passive earning | What is data ownership | Permission Wallet\n  visible interactive controls on the page: Log in | Sign Up | Permission.ai | Terms of Use | Privacy Policy | Permission Home | | Privacy Policy | | Terms of Use | | Support\n  titles found in visible page text (bubbles included): none\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 8\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"What is Permission\",\u001b[39m\n\u001b[31m+   \"Best way to earn ASK\",\u001b[39m\n\u001b[31m+   \"How permission uses my data\",\u001b[39m\n\u001b[31m+   \"What is passive earning\",\u001b[39m\n\u001b[31m+   \"What is data ownership\",\u001b[39m\n\u001b[31m+   \"Permission Wallet\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at C:\\Qa\\Qa\\sqa-homework-ali\\tests\\02-suggested-topics.spec.ts:123:5",
+                    "message": "Error: 0/6 suggested topics rendered as visible pills after 12355ms.\n  None of the titles appear in the page's raw HTML at all, so the payload was fetched and discarded rather than hidden by CSS.\n  served by /api/agent/suggestions-unauthenticated: What is Permission | Best way to earn ASK | How permission uses my data | What is passive earning | What is data ownership | Permission Wallet\n  visible interactive controls on the page: Log in | Sign Up | Permission.ai | Terms of Use | Privacy Policy | Permission Home | | Privacy Policy | | Terms of Use | | Support\n  titles found in visible page text (bubbles included): none\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 8\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"What is Permission\",\u001b[39m\n\u001b[31m+   \"Best way to earn ASK\",\u001b[39m\n\u001b[31m+   \"How permission uses my data\",\u001b[39m\n\u001b[31m+   \"What is passive earning\",\u001b[39m\n\u001b[31m+   \"What is data ownership\",\u001b[39m\n\u001b[31m+   \"Permission Wallet\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                    "stack": "Error: 0/6 suggested topics rendered as visible pills after 12355ms.\n  None of the titles appear in the page's raw HTML at all, so the payload was fetched and discarded rather than hidden by CSS.\n  served by /api/agent/suggestions-unauthenticated: What is Permission | Best way to earn ASK | How permission uses my data | What is passive earning | What is data ownership | Permission Wallet\n  visible interactive controls on the page: Log in | Sign Up | Permission.ai | Terms of Use | Privacy Policy | Permission Home | | Privacy Policy | | Terms of Use | | Support\n  titles found in visible page text (bubbles included): none\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 8\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"What is Permission\",\u001b[39m\n\u001b[31m+   \"Best way to earn ASK\",\u001b[39m\n\u001b[31m+   \"How permission uses my data\",\u001b[39m\n\u001b[31m+   \"What is passive earning\",\u001b[39m\n\u001b[31m+   \"What is data ownership\",\u001b[39m\n\u001b[31m+   \"Permission Wallet\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at C:\\Qa\\Qa\\sqa-homework-ali-raza\\tests\\02-suggested-topics.spec.ts:123:5",
                     "location": {
-                      "file": "C:\\Qa\\Qa\\sqa-homework-ali\\tests\\02-suggested-topics.spec.ts",
+                      "file": "C:\\Qa\\Qa\\sqa-homework-ali-raza\\tests\\02-suggested-topics.spec.ts",
                       "column": 5,
                       "line": 123
                     },
@@ -186,23 +186,23 @@
                   "errors": [
                     {
                       "location": {
-                        "file": "C:\\Qa\\Qa\\sqa-homework-ali\\tests\\02-suggested-topics.spec.ts",
+                        "file": "C:\\Qa\\Qa\\sqa-homework-ali-raza\\tests\\02-suggested-topics.spec.ts",
                         "column": 5,
                         "line": 123
                       },
-                      "message": "Error: 0/6 suggested topics rendered as visible pills after 12039ms.\n  None of the titles appear in the page's raw HTML at all, so the payload was fetched and discarded rather than hidden by CSS.\n  served by /api/agent/suggestions-unauthenticated: What is Permission | Best way to earn ASK | How permission uses my data | What is passive earning | What is data ownership | Permission Wallet\n  visible interactive controls on the page: Log in | Sign Up | Permission.ai | Terms of Use | Privacy Policy | Permission Home | | Privacy Policy | | Terms of Use | | Support\n  titles found in visible page text (bubbles included): none\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 8\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"What is Permission\",\u001b[39m\n\u001b[31m+   \"Best way to earn ASK\",\u001b[39m\n\u001b[31m+   \"How permission uses my data\",\u001b[39m\n\u001b[31m+   \"What is passive earning\",\u001b[39m\n\u001b[31m+   \"What is data ownership\",\u001b[39m\n\u001b[31m+   \"Permission Wallet\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n\u001b[0m \u001b[90m 121 |\u001b[39m \u001b[32m        report.titlesInBodyText.join(' | ') || 'none'\u001b[39m\n \u001b[90m 122 |\u001b[39m \u001b[32m      }`\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 123 |\u001b[39m   )\u001b[33m.\u001b[39mtoEqual([])\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 124 |\u001b[39m\n \u001b[90m 125 |\u001b[39m   \u001b[90m/* ---------------------------------------------------------------------------\u001b[39m\n \u001b[90m 126 |\u001b[39m \u001b[90m   * 3. REQUIRED: clicking a suggested topic produces an agent response.\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Qa\\Qa\\sqa-homework-ali\\tests\\02-suggested-topics.spec.ts:123:5\u001b[22m"
+                      "message": "Error: 0/6 suggested topics rendered as visible pills after 12355ms.\n  None of the titles appear in the page's raw HTML at all, so the payload was fetched and discarded rather than hidden by CSS.\n  served by /api/agent/suggestions-unauthenticated: What is Permission | Best way to earn ASK | How permission uses my data | What is passive earning | What is data ownership | Permission Wallet\n  visible interactive controls on the page: Log in | Sign Up | Permission.ai | Terms of Use | Privacy Policy | Permission Home | | Privacy Policy | | Terms of Use | | Support\n  titles found in visible page text (bubbles included): none\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 8\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"What is Permission\",\u001b[39m\n\u001b[31m+   \"Best way to earn ASK\",\u001b[39m\n\u001b[31m+   \"How permission uses my data\",\u001b[39m\n\u001b[31m+   \"What is passive earning\",\u001b[39m\n\u001b[31m+   \"What is data ownership\",\u001b[39m\n\u001b[31m+   \"Permission Wallet\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n\u001b[0m \u001b[90m 121 |\u001b[39m \u001b[32m        report.titlesInBodyText.join(' | ') || 'none'\u001b[39m\n \u001b[90m 122 |\u001b[39m \u001b[32m      }`\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 123 |\u001b[39m   )\u001b[33m.\u001b[39mtoEqual([])\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 124 |\u001b[39m\n \u001b[90m 125 |\u001b[39m   \u001b[90m/* ---------------------------------------------------------------------------\u001b[39m\n \u001b[90m 126 |\u001b[39m \u001b[90m   * 3. REQUIRED: clicking a suggested topic produces an agent response.\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Qa\\Qa\\sqa-homework-ali-raza\\tests\\02-suggested-topics.spec.ts:123:5\u001b[22m"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-08-17T20:19:46.325Z",
+                  "startTime": "2026-08-20T11:23:34.755Z",
                   "annotations": [
                     {
                       "type": "fail",
                       "description": "BUG-1: the API serves enabled anonymous suggested topics and the page renders none of them. Annotated test.fail() so the suite stays green; run with EXPECT_PILLS=1 to assert strictly.",
                       "location": {
-                        "file": "C:\\Qa\\Qa\\sqa-homework-ali\\tests\\02-suggested-topics.spec.ts",
+                        "file": "C:\\Qa\\Qa\\sqa-homework-ali-raza\\tests\\02-suggested-topics.spec.ts",
                         "line": 65,
                         "column": 8
                       }
@@ -212,16 +212,16 @@
                     {
                       "name": "suggestion-pill-report.json",
                       "contentType": "application/json",
-                      "body": "ewogICJzZXJ2ZWQiOiBbCiAgICB7CiAgICAgICJpZCI6ICIzMzI1NTU4Ni01NjMxLTQwYjQtOWJjMy00OTU5ODUwMzYxYzAiLAogICAgICAidGl0bGUiOiAiV2hhdCBpcyBQZXJtaXNzaW9uIiwKICAgICAgInByb21wdCI6ICJXaGF0IGlzIFBlcm1pc3Npb24/IiwKICAgICAgImZvcl9hdXRoZW50aWNhdGVkIjogZmFsc2UsCiAgICAgICJvcmRlciI6IDEsCiAgICAgICJlbmFibGVkIjogdHJ1ZSwKICAgICAgImNyZWF0ZWRfYXQiOiAiMjAyNS0xMS0xNFQwOTo1NTozNy42MDVaIiwKICAgICAgInVwZGF0ZWRfYXQiOiAiMjAyNS0xMS0xNFQwOTo1NTozNy42MDVaIgogICAgfSwKICAgIHsKICAgICAgImlkIjogIjI0ZGMzYTJhLWU5YTAtNDU1MS1hYzQ3LWRiMzVkMjIyMDQ4YyIsCiAgICAgICJ0aXRsZSI6ICJCZXN0IHdheSB0byBlYXJuIEFTSyIsCiAgICAgICJwcm9tcHQiOiAiSG93IGNhbiBpIGVhcm4gQVNLPyIsCiAgICAgICJmb3JfYXV0aGVudGljYXRlZCI6IGZhbHNlLAogICAgICAib3JkZXIiOiAyLAogICAgICAiZW5hYmxlZCI6IHRydWUsCiAgICAgICJjcmVhdGVkX2F0IjogIjIwMjUtMTEtMTRUMDk6NTU6NTguODExWiIsCiAgICAgICJ1cGRhdGVkX2F0IjogIjIwMjUtMTEtMTRUMDk6NTU6NTguODExWiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJhZDE5ODMwYS0yMzU5LTRjN2UtOWNhMi05YTc4YTdmZjRmM2MiLAogICAgICAidGl0bGUiOiAiSG93IHBlcm1pc3Npb24gdXNlcyBteSBkYXRhIiwKICAgICAgInByb21wdCI6ICJIb3cgcGVybWlzc2lvbiB1c2VzIG15IGRhdGE/IiwKICAgICAgImZvcl9hdXRoZW50aWNhdGVkIjogZmFsc2UsCiAgICAgICJvcmRlciI6IDMsCiAgICAgICJlbmFibGVkIjogdHJ1ZSwKICAgICAgImNyZWF0ZWRfYXQiOiAiMjAyNS0xMS0xNFQwOTo1NjoxNC44MTVaIiwKICAgICAgInVwZGF0ZWRfYXQiOiAiMjAyNS0xMS0xNFQwOTo1NjoxNC44MTVaIgogICAgfSwKICAgIHsKICAgICAgImlkIjogIjYyMDc3OWFlLTlmOTctNGUzMC1iODVlLTljMTU2NGIwOGMwYyIsCiAgICAgICJ0aXRsZSI6ICJXaGF0IGlzIHBhc3NpdmUgZWFybmluZyIsCiAgICAgICJwcm9tcHQiOiAiV2hhdCBpcyBwYXNzaXZlIGVhcm5pbmc/IiwKICAgICAgImZvcl9hdXRoZW50aWNhdGVkIjogZmFsc2UsCiAgICAgICJvcmRlciI6IDQsCiAgICAgICJlbmFibGVkIjogdHJ1ZSwKICAgICAgImNyZWF0ZWRfYXQiOiAiMjAyNS0xMS0xNFQwOTo1Njo0MC45NTFaIiwKICAgICAgInVwZGF0ZWRfYXQiOiAiMjAyNS0xMS0xNFQwOTo1Njo0MC45NTFaIgogICAgfSwKICAgIHsKICAgICAgImlkIjogIjRhN2FhNDZlLTkxMzEtNDkzNy05YTA5LWE2ZGQ2OTM3YmM1MSIsCiAgICAgICJ0aXRsZSI6ICJXaGF0IGlzIGRhdGEgb3duZXJzaGlwIiwKICAgICAgInByb21wdCI6ICJXaGF0IGlzIGRhdGEgb3duZXJzaGlwIGFuZCB3aHkgaXQgaXMgaW1wb3J0YW50IGZvciBtZT8iLAogICAgICAiZm9yX2F1dGhlbnRpY2F0ZWQiOiBmYWxzZSwKICAgICAgIm9yZGVyIjogNSwKICAgICAgImVuYWJsZWQiOiB0cnVlLAogICAgICAiY3JlYXRlZF9hdCI6ICIyMDI1LTExLTE0VDA5OjU5OjI3LjE4NVoiLAogICAgICAidXBkYXRlZF9hdCI6ICIyMDI1LTExLTE0VDA5OjU5OjI3LjE4NVoiCiAgICB9LAogICAgewogICAgICAiaWQiOiAiNjc1NGU1Y2ItZjZiMi00ZjMyLTlmZGMtMGZlY2M1MDExMjM4IiwKICAgICAgInRpdGxlIjogIlBlcm1pc3Npb24gV2FsbGV0IiwKICAgICAgInByb21wdCI6ICJXaGF0IGlzIFBlcm1pc3Npb24gV2FsbGV0PyIsCiAgICAgICJmb3JfYXV0aGVudGljYXRlZCI6IGZhbHNlLAogICAgICAib3JkZXIiOiA2LAogICAgICAiZW5hYmxlZCI6IHRydWUsCiAgICAgICJjcmVhdGVkX2F0IjogIjIwMjUtMTEtMTRUMTA6MDA6MzQuOTAzWiIsCiAgICAgICJ1cGRhdGVkX2F0IjogIjIwMjUtMTEtMTRUMTA6MDA6MzQuOTAzWiIKICAgIH0KICBdLAogICJyZXBvcnQiOiB7CiAgICAicGlsbHMiOiBbCiAgICAgIHsKICAgICAgICAidGl0bGUiOiAiV2hhdCBpcyBQZXJtaXNzaW9uIiwKICAgICAgICAiZm91bmQiOiBmYWxzZSwKICAgICAgICAidmlzaWJsZSI6IGZhbHNlLAogICAgICAgICJ0YWciOiBudWxsLAogICAgICAgICJ0ZXN0aWQiOiBudWxsCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAidGl0bGUiOiAiQmVzdCB3YXkgdG8gZWFybiBBU0siLAogICAgICAgICJmb3VuZCI6IGZhbHNlLAogICAgICAgICJ2aXNpYmxlIjogZmFsc2UsCiAgICAgICAgInRhZyI6IG51bGwsCiAgICAgICAgInRlc3RpZCI6IG51bGwKICAgICAgfSwKICAgICAgewogICAgICAgICJ0aXRsZSI6ICJIb3cgcGVybWlzc2lvbiB1c2VzIG15IGRhdGEiLAogICAgICAgICJmb3VuZCI6IGZhbHNlLAogICAgICAgICJ2aXNpYmxlIjogZmFsc2UsCiAgICAgICAgInRhZyI6IG51bGwsCiAgICAgICAgInRlc3RpZCI6IG51bGwKICAgICAgfSwKICAgICAgewogICAgICAgICJ0aXRsZSI6ICJXaGF0IGlzIHBhc3NpdmUgZWFybmluZyIsCiAgICAgICAgImZvdW5kIjogZmFsc2UsCiAgICAgICAgInZpc2libGUiOiBmYWxzZSwKICAgICAgICAidGFnIjogbnVsbCwKICAgICAgICAidGVzdGlkIjogbnVsbAogICAgICB9LAogICAgICB7CiAgICAgICAgInRpdGxlIjogIldoYXQgaXMgZGF0YSBvd25lcnNoaXAiLAogICAgICAgICJmb3VuZCI6IGZhbHNlLAogICAgICAgICJ2aXNpYmxlIjogZmFsc2UsCiAgICAgICAgInRhZyI6IG51bGwsCiAgICAgICAgInRlc3RpZCI6IG51bGwKICAgICAgfSwKICAgICAgewogICAgICAgICJ0aXRsZSI6ICJQZXJtaXNzaW9uIFdhbGxldCIsCiAgICAgICAgImZvdW5kIjogZmFsc2UsCiAgICAgICAgInZpc2libGUiOiBmYWxzZSwKICAgICAgICAidGFnIjogbnVsbCwKICAgICAgICAidGVzdGlkIjogbnVsbAogICAgICB9CiAgICBdLAogICAgInRpdGxlc0luQm9keVRleHQiOiBbXSwKICAgICJ0aXRsZXNJblJhd0h0bWwiOiBbXSwKICAgICJpbnRlcmFjdGl2ZU5hbWVzIjogWwogICAgICAiTG9nIGluIiwKICAgICAgIlNpZ24gVXAiLAogICAgICAiUGVybWlzc2lvbi5haSIsCiAgICAgICJUZXJtcyBvZiBVc2UiLAogICAgICAiUHJpdmFjeSBQb2xpY3kiLAogICAgICAiUGVybWlzc2lvbiBIb21lIHwiLAogICAgICAiUHJpdmFjeSBQb2xpY3kgfCIsCiAgICAgICJUZXJtcyBvZiBVc2UgfCIsCiAgICAgICJTdXBwb3J0IgogICAgXSwKICAgICJ3YWl0ZWRNcyI6IDEyMDM5CiAgfQp9"
+                      "body": "ewogICJzZXJ2ZWQiOiBbCiAgICB7CiAgICAgICJpZCI6ICIzMzI1NTU4Ni01NjMxLTQwYjQtOWJjMy00OTU5ODUwMzYxYzAiLAogICAgICAidGl0bGUiOiAiV2hhdCBpcyBQZXJtaXNzaW9uIiwKICAgICAgInByb21wdCI6ICJXaGF0IGlzIFBlcm1pc3Npb24/IiwKICAgICAgImZvcl9hdXRoZW50aWNhdGVkIjogZmFsc2UsCiAgICAgICJvcmRlciI6IDEsCiAgICAgICJlbmFibGVkIjogdHJ1ZSwKICAgICAgImNyZWF0ZWRfYXQiOiAiMjAyNS0xMS0xNFQwOTo1NTozNy42MDVaIiwKICAgICAgInVwZGF0ZWRfYXQiOiAiMjAyNS0xMS0xNFQwOTo1NTozNy42MDVaIgogICAgfSwKICAgIHsKICAgICAgImlkIjogIjI0ZGMzYTJhLWU5YTAtNDU1MS1hYzQ3LWRiMzVkMjIyMDQ4YyIsCiAgICAgICJ0aXRsZSI6ICJCZXN0IHdheSB0byBlYXJuIEFTSyIsCiAgICAgICJwcm9tcHQiOiAiSG93IGNhbiBpIGVhcm4gQVNLPyIsCiAgICAgICJmb3JfYXV0aGVudGljYXRlZCI6IGZhbHNlLAogICAgICAib3JkZXIiOiAyLAogICAgICAiZW5hYmxlZCI6IHRydWUsCiAgICAgICJjcmVhdGVkX2F0IjogIjIwMjUtMTEtMTRUMDk6NTU6NTguODExWiIsCiAgICAgICJ1cGRhdGVkX2F0IjogIjIwMjUtMTEtMTRUMDk6NTU6NTguODExWiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJhZDE5ODMwYS0yMzU5LTRjN2UtOWNhMi05YTc4YTdmZjRmM2MiLAogICAgICAidGl0bGUiOiAiSG93IHBlcm1pc3Npb24gdXNlcyBteSBkYXRhIiwKICAgICAgInByb21wdCI6ICJIb3cgcGVybWlzc2lvbiB1c2VzIG15IGRhdGE/IiwKICAgICAgImZvcl9hdXRoZW50aWNhdGVkIjogZmFsc2UsCiAgICAgICJvcmRlciI6IDMsCiAgICAgICJlbmFibGVkIjogdHJ1ZSwKICAgICAgImNyZWF0ZWRfYXQiOiAiMjAyNS0xMS0xNFQwOTo1NjoxNC44MTVaIiwKICAgICAgInVwZGF0ZWRfYXQiOiAiMjAyNS0xMS0xNFQwOTo1NjoxNC44MTVaIgogICAgfSwKICAgIHsKICAgICAgImlkIjogIjYyMDc3OWFlLTlmOTctNGUzMC1iODVlLTljMTU2NGIwOGMwYyIsCiAgICAgICJ0aXRsZSI6ICJXaGF0IGlzIHBhc3NpdmUgZWFybmluZyIsCiAgICAgICJwcm9tcHQiOiAiV2hhdCBpcyBwYXNzaXZlIGVhcm5pbmc/IiwKICAgICAgImZvcl9hdXRoZW50aWNhdGVkIjogZmFsc2UsCiAgICAgICJvcmRlciI6IDQsCiAgICAgICJlbmFibGVkIjogdHJ1ZSwKICAgICAgImNyZWF0ZWRfYXQiOiAiMjAyNS0xMS0xNFQwOTo1Njo0MC45NTFaIiwKICAgICAgInVwZGF0ZWRfYXQiOiAiMjAyNS0xMS0xNFQwOTo1Njo0MC45NTFaIgogICAgfSwKICAgIHsKICAgICAgImlkIjogIjRhN2FhNDZlLTkxMzEtNDkzNy05YTA5LWE2ZGQ2OTM3YmM1MSIsCiAgICAgICJ0aXRsZSI6ICJXaGF0IGlzIGRhdGEgb3duZXJzaGlwIiwKICAgICAgInByb21wdCI6ICJXaGF0IGlzIGRhdGEgb3duZXJzaGlwIGFuZCB3aHkgaXQgaXMgaW1wb3J0YW50IGZvciBtZT8iLAogICAgICAiZm9yX2F1dGhlbnRpY2F0ZWQiOiBmYWxzZSwKICAgICAgIm9yZGVyIjogNSwKICAgICAgImVuYWJsZWQiOiB0cnVlLAogICAgICAiY3JlYXRlZF9hdCI6ICIyMDI1LTExLTE0VDA5OjU5OjI3LjE4NVoiLAogICAgICAidXBkYXRlZF9hdCI6ICIyMDI1LTExLTE0VDA5OjU5OjI3LjE4NVoiCiAgICB9LAogICAgewogICAgICAiaWQiOiAiNjc1NGU1Y2ItZjZiMi00ZjMyLTlmZGMtMGZlY2M1MDExMjM4IiwKICAgICAgInRpdGxlIjogIlBlcm1pc3Npb24gV2FsbGV0IiwKICAgICAgInByb21wdCI6ICJXaGF0IGlzIFBlcm1pc3Npb24gV2FsbGV0PyIsCiAgICAgICJmb3JfYXV0aGVudGljYXRlZCI6IGZhbHNlLAogICAgICAib3JkZXIiOiA2LAogICAgICAiZW5hYmxlZCI6IHRydWUsCiAgICAgICJjcmVhdGVkX2F0IjogIjIwMjUtMTEtMTRUMTA6MDA6MzQuOTAzWiIsCiAgICAgICJ1cGRhdGVkX2F0IjogIjIwMjUtMTEtMTRUMTA6MDA6MzQuOTAzWiIKICAgIH0KICBdLAogICJyZXBvcnQiOiB7CiAgICAicGlsbHMiOiBbCiAgICAgIHsKICAgICAgICAidGl0bGUiOiAiV2hhdCBpcyBQZXJtaXNzaW9uIiwKICAgICAgICAiZm91bmQiOiBmYWxzZSwKICAgICAgICAidmlzaWJsZSI6IGZhbHNlLAogICAgICAgICJ0YWciOiBudWxsLAogICAgICAgICJ0ZXN0aWQiOiBudWxsCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAidGl0bGUiOiAiQmVzdCB3YXkgdG8gZWFybiBBU0siLAogICAgICAgICJmb3VuZCI6IGZhbHNlLAogICAgICAgICJ2aXNpYmxlIjogZmFsc2UsCiAgICAgICAgInRhZyI6IG51bGwsCiAgICAgICAgInRlc3RpZCI6IG51bGwKICAgICAgfSwKICAgICAgewogICAgICAgICJ0aXRsZSI6ICJIb3cgcGVybWlzc2lvbiB1c2VzIG15IGRhdGEiLAogICAgICAgICJmb3VuZCI6IGZhbHNlLAogICAgICAgICJ2aXNpYmxlIjogZmFsc2UsCiAgICAgICAgInRhZyI6IG51bGwsCiAgICAgICAgInRlc3RpZCI6IG51bGwKICAgICAgfSwKICAgICAgewogICAgICAgICJ0aXRsZSI6ICJXaGF0IGlzIHBhc3NpdmUgZWFybmluZyIsCiAgICAgICAgImZvdW5kIjogZmFsc2UsCiAgICAgICAgInZpc2libGUiOiBmYWxzZSwKICAgICAgICAidGFnIjogbnVsbCwKICAgICAgICAidGVzdGlkIjogbnVsbAogICAgICB9LAogICAgICB7CiAgICAgICAgInRpdGxlIjogIldoYXQgaXMgZGF0YSBvd25lcnNoaXAiLAogICAgICAgICJmb3VuZCI6IGZhbHNlLAogICAgICAgICJ2aXNpYmxlIjogZmFsc2UsCiAgICAgICAgInRhZyI6IG51bGwsCiAgICAgICAgInRlc3RpZCI6IG51bGwKICAgICAgfSwKICAgICAgewogICAgICAgICJ0aXRsZSI6ICJQZXJtaXNzaW9uIFdhbGxldCIsCiAgICAgICAgImZvdW5kIjogZmFsc2UsCiAgICAgICAgInZpc2libGUiOiBmYWxzZSwKICAgICAgICAidGFnIjogbnVsbCwKICAgICAgICAidGVzdGlkIjogbnVsbAogICAgICB9CiAgICBdLAogICAgInRpdGxlc0luQm9keVRleHQiOiBbXSwKICAgICJ0aXRsZXNJblJhd0h0bWwiOiBbXSwKICAgICJpbnRlcmFjdGl2ZU5hbWVzIjogWwogICAgICAiTG9nIGluIiwKICAgICAgIlNpZ24gVXAiLAogICAgICAiUGVybWlzc2lvbi5haSIsCiAgICAgICJUZXJtcyBvZiBVc2UiLAogICAgICAiUHJpdmFjeSBQb2xpY3kiLAogICAgICAiUGVybWlzc2lvbiBIb21lIHwiLAogICAgICAiUHJpdmFjeSBQb2xpY3kgfCIsCiAgICAgICJUZXJtcyBvZiBVc2UgfCIsCiAgICAgICJTdXBwb3J0IgogICAgXSwKICAgICJ3YWl0ZWRNcyI6IDEyMzU1CiAgfQp9"
                     },
                     {
                       "name": "error-context",
                       "contentType": "text/markdown",
-                      "path": "C:\\Qa\\Qa\\sqa-homework-ali\\artifacts\\test-results\\02-suggested-topics-sugges-f03aa-one-produces-an-agent-reply-desktop-chromium\\error-context.md"
+                      "path": "C:\\Qa\\Qa\\sqa-homework-ali-raza\\artifacts\\test-results\\02-suggested-topics-sugges-f03aa-one-produces-an-agent-reply-desktop-chromium\\error-context.md"
                     }
                   ],
                   "errorLocation": {
-                    "file": "C:\\Qa\\Qa\\sqa-homework-ali\\tests\\02-suggested-topics.spec.ts",
+                    "file": "C:\\Qa\\Qa\\sqa-homework-ali-raza\\tests\\02-suggested-topics.spec.ts",
                     "column": 5,
                     "line": 123
                   }
@@ -266,22 +266,22 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 23615,
+                      "duration": 19172,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[relevance] mode=deterministic score=1 llmAvailable=false replyMs=3147\n"
+                          "text": "[relevance] mode=deterministic score=1 llmAvailable=false replyMs=3535\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-17T20:19:46.334Z",
+                      "startTime": "2026-08-20T11:23:34.747Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "relevance-verdict.json",
                           "contentType": "application/json",
-                          "body": "ewogICJxdWVzdGlvbiI6ICJXaGF0IGlzIFBlcm1pc3Npb24/IiwKICAicmVwbHkiOiAiUGVybWlzc2lvbiBpcyB5b3VyIHBlcnNvbmFsaXplZCBkYXRhIGJyb2tlci4gSXQgaGVscHMgeW91IGVhcm4gZnJvbSB5b3VyIGRhdGEuIFRoZSBtb3JlIHlvdSBjaG9vc2UgdG8gc2hhcmUsIHRoZSBtb3JlIHlvdSBjYW4gZWFybi4gWW91ciBBSSBhZ2VudCBpcyBhbHdheXMgYnkgeW91ciBzaWRlIHRvIG1hbmFnZSB5b3VyIHdhbGxldCwgdHJhY2sgZWFybmluZ3MsIGFuZCBmaW5kIG5ldyBvcHBvcnR1bml0aWVzIGZvciB5b3UuIiwKICAidmVyZGljdCI6IHsKICAgICJwYXNzIjogdHJ1ZSwKICAgICJzY29yZSI6IDEsCiAgICAicmVhc29uIjogIlJlbGV2YW50OiAxLzEgcXVlc3Rpb24ga2V5d29yZHMgbWF0Y2hlZCAocGVybWlzc2lvbiksIDcgZG9tYWluIHRlcm1zLCBzY29yZSAxLjAwID49IDAuMy4iLAogICAgIm1vZGUiOiAiZGV0ZXJtaW5pc3RpYyIsCiAgICAic2lnbmFscyI6IHsKICAgICAgImxlbmd0aCI6IDI0MywKICAgICAgIm1hdGNoZWRLZXl3b3JkcyI6IFsKICAgICAgICAicGVybWlzc2lvbiIKICAgICAgXSwKICAgICAgInF1ZXN0aW9uS2V5d29yZHMiOiBbCiAgICAgICAgInBlcm1pc3Npb24iCiAgICAgIF0sCiAgICAgICJkb21haW5UZXJtSGl0cyI6IFsKICAgICAgICAicGVybWlzc2lvbiIsCiAgICAgICAgImVhcm4iLAogICAgICAgICJlYXJuaW5nIiwKICAgICAgICAiZGF0YSIsCiAgICAgICAgIndhbGxldCIsCiAgICAgICAgImJyb2tlciIsCiAgICAgICAgInNoYXJlIgogICAgICBdLAogICAgICAibm9uQW5zd2VyTWF0Y2giOiBudWxsCiAgICB9CiAgfQp9"
+                          "body": "ewogICJxdWVzdGlvbiI6ICJXaGF0IGlzIFBlcm1pc3Npb24/IiwKICAicmVwbHkiOiAiUGVybWlzc2lvbiBpcyB5b3VyIHBlcnNvbmFsaXplZCBkYXRhIGJyb2tlci4gSXQgaGVscHMgeW91IGVhcm4gZnJvbSB5b3VyIGRhdGEuIFRoZSBtb3JlIHlvdSBzaGFyZSwgdGhlIG1vcmUgeW91IGVhcm4sIGFsd2F5cyB3aXRoIHlvdXIgQUkgYWdlbnQgYnkgeW91ciBzaWRlLiBXZSBiZWxpZXZlIEFJIG5lZWRzIHBlcm1pc3Npb24gdG8gYWNjZXNzIGhpZ2gtcXVhbGl0eSwgaHVtYW4tZ2VuZXJhdGVkIGRhdGEuIFdvdWxkIHlvdSBsaWtlIHRvIGtub3cgaG93IHlvdSBjYW4gc3RhcnQgZWFybmluZyBvciBleHBsb3JlIGN1cnJlbnQgb2ZmZXJzPyIsCiAgInZlcmRpY3QiOiB7CiAgICAicGFzcyI6IHRydWUsCiAgICAic2NvcmUiOiAxLAogICAgInJlYXNvbiI6ICJSZWxldmFudDogMS8xIHF1ZXN0aW9uIGtleXdvcmRzIG1hdGNoZWQgKHBlcm1pc3Npb24pLCA3IGRvbWFpbiB0ZXJtcywgc2NvcmUgMS4wMCA+PSAwLjMuIiwKICAgICJtb2RlIjogImRldGVybWluaXN0aWMiLAogICAgInNpZ25hbHMiOiB7CiAgICAgICJsZW5ndGgiOiAzMTAsCiAgICAgICJtYXRjaGVkS2V5d29yZHMiOiBbCiAgICAgICAgInBlcm1pc3Npb24iCiAgICAgIF0sCiAgICAgICJxdWVzdGlvbktleXdvcmRzIjogWwogICAgICAgICJwZXJtaXNzaW9uIgogICAgICBdLAogICAgICAiZG9tYWluVGVybUhpdHMiOiBbCiAgICAgICAgInBlcm1pc3Npb24iLAogICAgICAgICJlYXJuIiwKICAgICAgICAiZWFybmluZyIsCiAgICAgICAgImRhdGEiLAogICAgICAgICJvZmZlciIsCiAgICAgICAgImJyb2tlciIsCiAgICAgICAgInNoYXJlIgogICAgICBdLAogICAgICAibm9uQW5zd2VyTWF0Y2giOiBudWxsCiAgICB9CiAgfQp9"
                         }
                       ]
                     }
@@ -310,12 +310,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 20051,
+                      "duration": 18056,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-17T20:20:18.240Z",
+                      "startTime": "2026-08-20T11:23:54.063Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -344,12 +344,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 16413,
+                      "duration": 16420,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-17T20:20:38.324Z",
+                      "startTime": "2026-08-20T11:24:12.128Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -378,12 +378,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 18016,
+                      "duration": 17825,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-17T20:20:54.745Z",
+                      "startTime": "2026-08-20T11:24:28.555Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -422,12 +422,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 17512,
+                  "duration": 15112,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-08-17T20:20:11.610Z",
+                  "startTime": "2026-08-20T11:23:49.727Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -462,14 +462,14 @@
               "results": [
                 {
                   "workerIndex": 3,
-                  "parallelIndex": 0,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 15242,
+                  "duration": 14834,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-08-17T20:20:29.809Z",
+                  "startTime": "2026-08-20T11:24:03.640Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -487,8 +487,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-17T20:19:45.843Z",
-    "duration": 87019.835,
+    "startTime": "2026-08-20T11:23:34.305Z",
+    "duration": 72159.145,
     "expected": 8,
     "skipped": 0,
     "unexpected": 0,

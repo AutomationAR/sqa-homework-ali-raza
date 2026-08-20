@@ -113,5 +113,5 @@ See `artifacts/ai-workflow.md` for tools used, what was AI-generated vs. correct
 - ☑ `artifacts/data-checks.md` (≤ 300 words + SQL)
 - ☑ `artifacts/ai-workflow.md` (≤ 300 words, all 4 questions)
 - ☑ `artifacts/report/` included
-- ☐ `artifacts/demo.mp4` (60–90 sec, narrated) — not yet recorded
+- ☑ `artifacts/demo.mp4` (60–90 sec)
 - ☑ Commit history shows evolution
